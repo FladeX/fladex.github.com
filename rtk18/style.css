@@ -312,7 +312,7 @@ p.copy {
 }
 
 @media screen and (min-width: 860px) and (max-height: 850px) {
-     .bottom_info {
+    .bottom_info {
         padding-top: 0;
         position: relative;
     }
@@ -332,6 +332,310 @@ p.copy {
     }
 }
 
+@media screen and (max-width: 825px) {
+    .seek_bar { width: 505px; }
+}
+@media screen and (max-width: 820px) {
+    .seek_bar { width: 500px; }
+}
+@media screen and (max-width: 815px) {
+    .seek_bar { width: 495px; }
+}
+@media screen and (max-width: 810px) {
+    .seek_bar { width: 490px; }
+}
+@media screen and (max-width: 805px) {
+    .seek_bar { width: 485px; }
+}
+@media screen and (max-width: 800px) {
+    .seek_bar { width: 480px; }
+}
+@media screen and (max-width: 795px) {
+    .seek_bar { width: 475px; }
+}
+@media screen and (max-width: 790px) {
+    .seek_bar { width: 470px; }
+}
+@media screen and (max-width: 785px) {
+    .seek_bar { width: 465px; }
+}
+@media screen and (max-width: 780px) {
+    .seek_bar { width: 460px; }
+}
+@media screen and (max-width: 775px) {
+    .seek_bar { width: 455px; }
+}
+@media screen and (max-width: 770px) {
+    .seek_bar { width: 450px; }
+}
+@media screen and (max-width: 765px) {
+    .seek_bar { width: 445px; }
+}
+@media screen and (max-width: 760px) {
+    .seek_bar { width: 440px; }
+}
+@media screen and (max-width: 755px) {
+    .seek_bar { width: 435px; }
+}
+@media screen and (max-width: 750px) {
+    .seek_bar { width: 430px; }
+}
+@media screen and (max-width: 745px) {
+    .seek_bar { width: 425px; }
+}
+@media screen and (max-width: 740px) {
+    .seek_bar { width: 420px; }
+}
+@media screen and (max-width: 735px) {
+    .seek_bar { width: 415px; }
+}
+@media screen and (max-width: 730px) {
+    .seek_bar { width: 410px; }
+}
+@media screen and (max-width: 725px) {
+    .seek_bar { width: 405px; }
+}
+@media screen and (max-width: 720px) {
+    .seek_bar { width: 400px; }
+}
+@media screen and (max-width: 715px) {
+    .seek_bar { width: 395px; }
+}
+@media screen and (max-width: 705px) {
+    .seek_bar { width: 390px; }
+}
+@media screen and (max-width: 700px) {
+    .seek_bar { width: 385px; }
+}
+@media screen and (max-width: 695px) {
+    .seek_bar { width: 380px; }
+}
+@media screen and (max-width: 690px) {
+    .seek_bar { width: 375px; }
+}
+@media screen and (max-width: 685px) {
+    .seek_bar { width: 370px; }
+}
+@media screen and (max-width: 680px) {
+    .seek_bar { width: 365px; }
+}
+@media screen and (max-width: 675px) {
+    .seek_bar { width: 360px; }
+}
+@media screen and (max-width: 670px) {
+    .seek_bar { width: 355px; }
+}
+@media screen and (max-width: 665px) {
+    .seek_bar { width: 350px; }
+}
+@media screen and (max-width: 660px) {
+    .seek_bar { width: 345px; }
+}
+@media screen and (max-width: 655px) {
+    .seek_bar { width: 340px; }
+}
+@media screen and (max-width: 650px) {
+    .seek_bar { width: 335px; }
+}
+@media screen and (max-width: 645px) {
+    .seek_bar { width: 330px; }
+}
+@media screen and (max-width: 640px) {
+    .seek_bar { width: 325px; }
+}
+@media screen and (max-width: 635px) {
+    .seek_bar { width: 320px; }
+}
+@media screen and (max-width: 630px) {
+    .seek_bar { width: 315px; }
+}
+@media screen and (max-width: 625px) {
+    .seek_bar { width: 310px; }
+}
+@media screen and (max-width: 620px) {
+    .seek_bar { width: 305px; }
+}
+@media screen and (max-width: 615px) {
+    .seek_bar { width: 300px; }
+}
+@media screen and (max-width: 610px) {
+    .seek_bar { width: 295px; }
+}
+@media screen and (max-width: 605px) {
+    .seek_bar { width: 290px; }
+}
+@media screen and (max-width: 600px) {
+    .seek_bar { width: 285px; }
+}
+@media screen and (max-width: 595px) {
+    .seek_bar { width: 280px; }
+}
+@media screen and (max-width: 590px) {
+    .seek_bar { width: 275px; }
+}
+@media screen and (max-width: 585px) {
+    .seek_bar { width: 270px; }
+}
+@media screen and (max-width: 580px) {
+    .seek_bar { width: 265px; }
+}
+@media screen and (max-width: 575px) {
+    .seek_bar { width: 260px; }
+}
+@media screen and (max-width: 565px) {
+    .seek_bar { width: 255px; }
+}
+@media screen and (max-width: 560px) {
+    .seek_bar { width: 250px; }
+}
+@media screen and (max-width: 555px) {
+    .seek_bar { width: 245px; }
+}
+@media screen and (max-width: 550px) {
+    .seek_bar { width: 240px; }
+}
+@media screen and (max-width: 545px) {
+    .seek_bar { width: 235px; }
+}
+@media screen and (max-width: 540px) {
+    .seek_bar { width: 235px; }
+}
+@media screen and (max-width: 535px) {
+    .seek_bar { width: 235px; }
+}
+@media screen and (max-width: 530px) {
+    .seek_bar { width: 230px; }
+}
+@media screen and (max-width: 525px) {
+    .seek_bar { width: 225px; }
+}
+@media screen and (max-width: 520px) {
+    .seek_bar { width: 220px; }
+}
+@media screen and (max-width: 515px) {
+    .seek_bar { width: 215px; }
+}
+@media screen and (max-width: 510px) {
+    .seek_bar { width: 210px; }
+}
+@media screen and (max-width: 505px) {
+    .seek_bar { width: 205px; }
+}
+@media screen and (max-width: 500px) {
+    .seek_bar { width: 200px; }
+}
+@media screen and (max-width: 495px) {
+    .seek_bar { width: 195px; }
+}
+@media screen and (max-width: 490px) {
+    .seek_bar { width: 190px; }
+}
+@media screen and (max-width: 485px) {
+    .seek_bar { width: 185px; }
+}
+@media screen and (max-width: 480px) {
+    .seek_bar { width: 180px; }
+}
+@media screen and (max-width: 475px) {
+    .seek_bar { width: 175px; }
+}
+@media screen and (max-width: 470px) {
+    .seek_bar { width: 170px; }
+}
+@media screen and (max-width: 465px) {
+    .seek_bar { width: 165px; }
+}
+@media screen and (max-width: 460px) {
+    .seek_bar { width: 160px; }
+}
+@media screen and (max-width: 455px) {
+    .seek_bar { width: 155px; }
+}
+@media screen and (max-width: 450px) {
+    .seek_bar { width: 150px; }
+}
+@media screen and (max-width: 445px) {
+    .seek_bar { width: 145px; }
+}
+@media screen and (max-width: 440px) {
+    .seek_bar { width: 140px; }
+}
+@media screen and (max-width: 435px) {
+    .seek_bar { width: 135px; }
+}
+@media screen and (max-width: 430px) {
+    .seek_bar { width: 130px; }
+}
+@media screen and (max-width: 425px) {
+    .seek_bar { width: 125px; }
+}
+@media screen and (max-width: 420px) {
+    .seek_bar { width: 120px; }
+}
+@media screen and (max-width: 415px) {
+    .seek_bar { width: 115px; }
+}
+@media screen and (max-width: 410px) {
+    .seek_bar { width: 110px; }
+}
+@media screen and (max-width: 405px) {
+    .seek_bar { width: 105px; }
+}
+@media screen and (max-width: 400px) {
+    .seek_bar { width: 100px; }
+}
+@media screen and (max-width: 395px) {
+    .seek_bar { width: 100px; }
+}
+@media screen and (max-width: 390px) {
+    .seek_bar { width: 95px; }
+}
+@media screen and (max-width: 385px) {
+    .seek_bar { width: 95px; }
+}
+@media screen and (max-width: 380px) {
+    .seek_bar { width: 90px; }
+}
+@media screen and (max-width: 375px) {
+    .seek_bar { width: 90px; }
+}
+@media screen and (max-width: 370px) {
+    .seek_bar { width: 85px; }
+}
+@media screen and (max-width: 365px) {
+    .seek_bar { width: 80px; }
+}
+@media screen and (max-width: 360px) {
+    .seek_bar { width: 75px; }
+}
+@media screen and (max-width: 355px) {
+    .seek_bar { width: 70px; }
+}
+@media screen and (max-width: 350px) {
+    .seek_bar { width: 65px; }
+}
+@media screen and (max-width: 345px) {
+    .seek_bar { width: 60px; }
+}
+@media screen and (max-width: 340px) {
+    .seek_bar { width: 55px; }
+}
+@media screen and (max-width: 335px) {
+    .seek_bar { width: 50px; }
+}
+@media screen and (max-width: 330px) {
+    .seek_bar { width: 45px; }
+}
+@media screen and (max-width: 325px) {
+    .seek_bar { width: 40px; }
+}
+@media screen and (max-width: 320px) {
+    .seek_bar { width: 40px; }
+}
+@media screen and (max-width: 315px) {
+    .seek_bar { display: none; }
+}
+
 @media screen and (max-width: 620px) {
     .no {
         bottom: 50px;
@@ -341,9 +645,9 @@ p.copy {
         margin: 0;
         padding: 0;
     }
-    .seek_bar {
+    /*.seek_bar {
         width: 45%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 450px) {
@@ -359,9 +663,9 @@ p.copy {
         margin: 0;
         padding: 0;
     }
-    .seek_bar {
+    /*.seek_bar {
         width: 28%;
-    }
+    }*/
 }
 
 @media screen and (max-height: 500px) and (min-width: 500px) {
@@ -372,4 +676,4 @@ p.copy {
         margin: 0;
         padding: 0;
     }
-}
+}*/
