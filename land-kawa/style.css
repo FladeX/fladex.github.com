@@ -1,0 +1,47 @@
+.b-page {
+    background: #fff;
+}
+.b-header {
+    background: #fff;
+    height: 134px;
+}
+.b-header__wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+.b-header__title {
+    color: #000;
+    float: left;
+    font: 16px Arial;
+    padding-top: 65px;
+    width: 40%;
+}
+.b-header__title-main {}
+.b-header__title-secondary {
+    color: #959595;
+}
+.b-header__phone {
+    color: #959595;
+    float: right;
+    font: 16px Arial;
+    padding-top: 65px;
+    text-align: right;
+    width: 40%;
+}
+.b-header__phone-intro {
+    background: url('img/b-icon__phone.png') 0 1px no-repeat;
+    display: inline-block;
+    padding-left: 24px;
+}
+.b-header__phone-number {
+    color: #000;
+    font-family: Roboto, Arial;
+    font-size: 30px;
+    font-weight: bold;
+}
+.b-header__logo {
+    left: 418px;
+    position: absolute;
+    top: 30px;
+}
