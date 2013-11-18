@@ -1,0 +1,14 @@
+.DS_Store
+.TemporaryItems
+.apdisk
+._*
+.project
+.settings
+.tags*
+.~*
+*~
+*.sublime-*
+/nbproject/private/
+REVISION
+Gemfile.lock
+Thumbs.db
