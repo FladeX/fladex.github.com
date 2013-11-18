@@ -254,3 +254,6 @@
 .b-catalog__item-more_bg_green {
     background: url('img/b-button_more_green.png') no-repeat;
 }
+.b-catalog__item-more:hover {
+    background-position: 0 -38px;
+}
