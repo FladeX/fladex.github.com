@@ -14,7 +14,7 @@
     color: #000;
     float: left;
     font: 16px Arial;
-    padding-top: 65px;
+    padding-top: 63px;
     width: 40%;
 }
 .b-header__title-main {}
@@ -25,7 +25,8 @@
     color: #959595;
     float: right;
     font: 16px Arial;
-    padding-top: 65px;
+    padding-right: 3px;
+    padding-top: 60px;
     text-align: right;
     width: 40%;
 }
@@ -36,12 +37,16 @@
 }
 .b-header__phone-number {
     color: #000;
-    font-family: Roboto, Arial;
+    display: block;
+    font-family: 'Roboto', Arial;
     font-size: 30px;
     font-weight: bold;
+    position: relative;
+    right: -4px;
+    top: -7px;
 }
 .b-header__logo {
-    left: 418px;
+    left: 419px;
     position: absolute;
     top: 30px;
 }
