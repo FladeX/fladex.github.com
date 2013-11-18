@@ -103,3 +103,62 @@
 .b-slider-slider {
     position: absolute;
 }
+
+.b-features {
+    background: #fff;
+}
+.b-features__bg_dark {
+    background: #373737 url('img/b-bg_color_gray.png');
+}
+.b-features__wrapper {
+    height: 169px;
+    margin: 0 auto;
+    width: 960px;
+}
+.b-features__block {
+    float: left;
+    height: 119px;
+    padding-left: 122px;
+    padding-right: 100px;
+    padding-top: 50px;
+    width: 258px;
+}
+.b-features__block__icon_calendar {
+    background: url('img/b-icon__calendar.png') 0 36px no-repeat;
+}
+.b-features__block__icon_star {
+    background: url('img/b-icon__star.png') 14px 36px no-repeat;
+    padding-left: 135px;
+    width: 245px;
+}
+.b-features__block__icon_car {
+    background: url('img/b-icon__car.png') -2px 41px no-repeat;
+    height: 124px;
+    padding-top: 45px;
+}
+.b-features__block__icon_message {
+    background: url('img/b-icon__message.png') 16px 44px no-repeat;
+    height: 124px;
+    padding-left: 135px;
+    padding-top: 45px;
+    width: 245px;
+}
+.b-features__block-title {
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+.b-features__bg_dark .b-features__block-title {
+    color: #fff;
+}
+.b-features__block-text {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+}
+.b-features__bg_dark .b-features__block-text {
+    color: #fff;
+}
