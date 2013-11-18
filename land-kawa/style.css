@@ -162,3 +162,95 @@
 .b-features__bg_dark .b-features__block-text {
     color: #fff;
 }
+
+.b-catalog {}
+.b-catalog__wrapper {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 960px;
+}
+.b-catalog__title {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-catalog__subtitle {
+    color: #959595;
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.b-catalog__item {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    float: left;
+    padding-top: 22px;
+    text-align: center;
+    width: 479px;
+}
+.b-catalog__item_border_bottom {
+    border-bottom: 1px solid #ebebeb;
+}
+.b-catalog__item_border_right {
+    border-right: 1px solid #ebebeb;
+}
+.b-catalog__item_indent_top {
+    padding-top: 57px;
+}
+.b-catalog__item-photo {}
+.b-catalog__item-title {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 21px;
+}
+.b-catalog__item-description {
+    color: #959595;
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    line-height: 22px;
+}
+.b-catalog__item-info {
+    background: url('img/b-bg_arrow.png') 148px 53px no-repeat;
+    margin-top: 14px;
+    padding-bottom: 100px;
+}
+.b-catalog__item-price {
+    color: #000;
+    display: inline-block;
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    padding-right: 32px;
+    padding-top: 23px;
+}
+.b-catalog__item-more {
+    display: inline-block;
+    height: 38px;
+    overflow: hidden;
+    position: relative;
+    right: 8px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 183px;
+}
+.b-catalog__item-more_bg_yellow {
+    background: url('img/b-button_more_yellow.png') no-repeat;
+}
+.b-catalog__item-more_bg_red {
+    background: url('img/b-button_more_red.png') no-repeat;
+}
+.b-catalog__item-more_bg_blue {
+    background: url('img/b-button_more_blue.png') no-repeat;
+}
+.b-catalog__item-more_bg_green {
+    background: url('img/b-button_more_green.png') no-repeat;
+}
