@@ -466,3 +466,44 @@
     font-weight: bold;
     margin-bottom: 3px;
 }
+
+.b-partners {
+    background: #fff;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.b-partners__wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+.b-partners__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-partners__list {
+    display: inline-block;
+    //display: inline;
+    font-size: 14px;
+    list-style: none;
+    margin-top: 32px;
+    zoom: 1;
+}
+.b-partners__item {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+.b-partners__logo {
+    -webkit-transition: opacity 1s ease-out 0.3s;
+    -moz-transition: opacity 1s ease-out 0.3s;
+    -o-transition: opacity 1s ease-out 0.3s;
+    transition: opacity 1s ease-out 0.3s;
+}
+.b-partners__logo:hover {
+    opacity: 0.3;
+}
