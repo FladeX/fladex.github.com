@@ -424,6 +424,7 @@
 .b-stats {
     background: #f4f4f4;
     color: #000;
+    margin-bottom: 4px;
 }
 .b-stats__wrapper {
     margin: 0 auto;
