@@ -420,3 +420,48 @@
     line-height: 17px;
     margin-top: 16px;
 }
+
+.b-stats {
+    background: #f4f4f4;
+    color: #000;
+}
+.b-stats__wrapper {
+    margin: 0 auto;
+    padding-bottom: 74px;
+    padding-top: 58px;
+    width: 960px;
+}
+.b-stats__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-stats__list {
+    list-style: none;
+}
+.b-stats__item {
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 159px;
+    text-align: center;
+    width: 320px;
+}
+.b-stats__item_bg_machine {
+    background: url('img/b-icon__stats_bg_machine.png') 106px 42px no-repeat;
+}
+.b-stats__item_bg_training {
+    background: url('img/b-icon__stats_bg_training.png') 124px 28px no-repeat;
+}
+.b-stats__item_bg_years {
+    background: url('img/b-icon__stats_bg_years.png') 108px 56px no-repeat;
+}
+.b-stats__item-data {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
