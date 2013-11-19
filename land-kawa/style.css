@@ -387,3 +387,36 @@
     line-height: 17px;
     margin-top: 16px;
 }
+
+.b-about {
+    background: #373737 url('img/b-bg_color_gray.png');
+    color: #fff;
+    margin-top: 55px;
+}
+.b-about__wrapper {
+    background: url('img/b-bg__about.png') 14px 22px no-repeat;
+    margin: 0 auto;
+    padding-bottom: 31px;
+    padding-left: 308px;
+    padding-top: 38px;
+    width: 652px;
+}
+.b-about__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+}
+.b-about__subtitle {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 22px;
+}
+.b-about__text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 16px;
+}
