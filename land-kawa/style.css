@@ -338,3 +338,52 @@
 .b-choose__field-submit:hover {
     background-position: 0 -52px;
 }
+
+.b-benefits {
+    background: #fff;
+    margin-top: 30px;
+}
+.b-benefits__wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+.b-benefits__title {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    padding-top: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-benefits__item {
+    background-color: #f4f4f4;
+    margin-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 299px;
+    padding-right: 25px;
+    padding-top: 31px;
+}
+.b-benefits__item_bg_cup {
+    background: #f4f4f4 url('img/b-icon__benefits-cup.png') 68px 30px no-repeat;
+}
+.b-benefits__item_bg_bag-open {
+    background: #f4f4f4 url('img/b-icon__benefits-bag-open.png') 59px 36px no-repeat;
+    padding-top: 32px;
+}
+.b-benefits__item_bg_bag-close {
+    background: #f4f4f4 url('img/b-icon__benefits-bag-close.png') 94px 28px no-repeat;
+    padding-top: 25px;
+}
+.b-benefits__item-title {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+}
+.b-benefits__item-text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 16px;
+}
