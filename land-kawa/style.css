@@ -532,3 +532,62 @@
     position: relative;
     top: 0;
 }
+
+.b-clients {
+    background: #373737 url('img/b-bg_color_gray.png');
+    color: #fff;
+    padding-bottom: 29px;
+    padding-top: 36px;
+}
+.b-clients__wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+.b-clients__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-bottom: 66px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-clients__review {
+    margin-top: 28px;
+}
+.b-clients__review_indent_top {
+    margin-top: 35px;
+}
+.b-clients__avatar {
+    float: left;
+    padding-right: 18px;
+    text-align: center;
+    width: 276px;
+}
+.b-clients__photo {}
+.b-clients__review-title {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    padding-top: 24px;
+}
+.b-clients__review-text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+}
+.b-clients__review-signature {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.b-client__review-link {
+    border-bottom: 1px solid #f28b00;
+    color: #f28b00;
+    text-decoration: none;
+}
+.b-client__review-link:hover {
+    border-bottom: none;
+    text-decoration: none;
+}
