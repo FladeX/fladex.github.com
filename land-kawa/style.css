@@ -689,3 +689,92 @@
 .b-gift__time {
     font-size: 36px;
 }
+
+.b-callback {
+    background: #373737 url('img/b-bg_color_gray.png');
+    color: #fff;
+    padding-bottom: 48px;
+    padding-top: 33px;
+}
+.b-callback__wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+.b-callback__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.b-callback__text {
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.b-callback__form {
+    margin-top: 5px;
+    padding-top: 14px;
+}
+.b-callback__label {
+    background: #d6d6d6;
+    border: none;
+    -webkit-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    height: 40px;
+    margin: 11px auto 0;
+    padding: 5px 5px 4px;
+    width: 426px;
+}
+.b-callback__field {
+    border: 1px solid #c2c2c2;
+    -webkit-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    height: 35px;
+    margin: 0;
+    padding: 3px 32px 0;
+    width: 424px;
+    width: 360px;
+}
+.b-callback__field_data_name {
+    background: #fff url('img/b-icon__name_size_small.png') 11px 13px no-repeat
+}
+.b-callback__field_data_phone {
+    background: #fff url('img/b-icon__phone_size_small.png') 11px 13px no-repeat
+}
+.b-callback__submit {
+    background: url('img/b-button__color_blue.png') no-repeat;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    display: block;
+    height: 57px;
+    margin: 17px auto 0;
+    padding: 0;
+    text-shadow: -1px -1px 1px #000;
+    text-transform: uppercase;
+    width: 437px;
+}
+.b-callback__submit_bg_blue {
+    background: url('img/b-button__color_blue.png') no-repeat;
+}
+.b-callback__submit_bg_green {
+    background: url('img/b-button__color_green.png') no-repeat;
+}
+.b-callback__submit_bg_red {
+    background: url('img/b-button__color_red.png') no-repeat;
+}
+.b-callback__submit_bg_yellow {
+    background: url('img/b-button__color_yellow.png') no-repeat;
+}
+.b-callback__submit:hover {
+    background-position: 0 -62px;
+}
