@@ -631,7 +631,7 @@
     font-family: Arial;
     font-size: 24px;
     height: 48px;
-    margin-top: 19px;
+    margin-top: 18px;
     overflow: hidden;
     padding-left: 98px;
     padding-top: 27px;
@@ -648,4 +648,44 @@
 }
 .b-differences__column-item:hover {
     opacity: 0.6;
+}
+
+.b-gift {
+    background: #f4f4f4;
+    color: #000;
+    margin-top: 129px;
+}
+.b-gift__wrapper {
+    margin: 0 auto;
+    padding-bottom: 39px;
+    padding-left: 299px;
+    padding-top: 40px;
+    position: relative;
+    width: 661px;
+}
+.b-gift__image {
+    left: -10px;
+    position: absolute;
+    top: -67px;
+}
+.b-gift__title {
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.b-gift__text {
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 11px;
+}
+.b-gift__countdown {
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.b-gift__time {
+    font-size: 36px;
 }
