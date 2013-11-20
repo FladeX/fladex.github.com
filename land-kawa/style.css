@@ -470,7 +470,7 @@
 .b-partners {
     background: #fff;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 82px;
     margin-top: 20px;
 }
 .b-partners__wrapper {
@@ -506,4 +506,29 @@
 }
 .b-partners__logo:hover {
     opacity: 0.3;
+}
+.b-partners__logo_brand_evo {
+    left: -38px;
+    position: relative;
+    top: 0;
+}
+.b-partners__logo_brand_robinson {
+    left: -29px;
+    position: relative;
+    top: 0;
+}
+.b-partners__logo_brand_newton {
+    left: -20px;
+    position: relative;
+    top: 0;
+}
+.b-partners__logo_brand_amsterdam {
+    left: -11px;
+    position: relative;
+    top: 0;
+}
+.b-partners__logo_brand_newman {
+    left: -2px;
+    position: relative;
+    top: 0;
 }
