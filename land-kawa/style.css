@@ -778,3 +778,50 @@
 .b-callback__submit:hover {
     background-position: 0 -62px;
 }
+
+.b-footer {
+    background: #000;
+    color: #959595;
+    height: 134px;
+    padding-bottom: 17px;
+}
+.b-footer__wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+.b-footer__title {
+    float: left;
+    font: 16px Arial;
+    padding-top: 65px;
+    width: 40%;
+}
+.b-footer__title-main {}
+.b-footer__title-secondary {}
+.b-footer__phone {
+    float: right;
+    font: 16px Arial;
+    padding-right: 3px;
+    padding-top: 62px;
+    text-align: right;
+    width: 40%;
+}
+.b-footer__phone-intro {
+    background: url('img/b-icon__phone_size_small_color_dark.png') 0 1px no-repeat;
+    display: inline-block;
+    padding-left: 24px;
+}
+.b-footer__phone-number {
+    display: block;
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    right: -4px;
+    top: -7px;
+}
+.b-footer__logo {
+    left: 416px;
+    position: absolute;
+    top: 32px;
+}
