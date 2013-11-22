@@ -319,6 +319,7 @@
     padding-top: 23px;
 }
 .b-catalog__item-more {
+    background: url('img/b-buttons.png') -467px 0 no-repeat;
     color: #000;
     font-family: 'Roboto', Arial;
     font-size: 18px;
@@ -337,25 +338,25 @@
     width: 183px;
 }
 .b-catalog__item-more_bg_blue {
-    background: url('img/b-buttons.png') -467px 0 no-repeat;
+    background-position: -467px 0;
 }
 .b-catalog__item-more_bg_blue:hover {
     background-position: -467px -38px;
 }
 .b-catalog__item-more_bg_green {
-    background: url('img/b-buttons.png') -467px -134px no-repeat;
+    background-position: -467px -134px;
 }
 .b-catalog__item-more_bg_green:hover {
     background-position: -467px -172px;
 }
 .b-catalog__item-more_bg_red {
-    background: url('img/b-buttons.png') -467px -268px no-repeat;
+    background-position: -467px -268px;
 }
 .b-catalog__item-more_bg_red:hover {
     background-position: -467px -306px;
 }
 .b-catalog__item-more_bg_yellow {
-    background: url('img/b-buttons.png') -467px -402px no-repeat;
+    background-position: -467px -402px;
 }
 .b-catalog__item-more_bg_yellow:hover {
     background-position: -467px -440px;
