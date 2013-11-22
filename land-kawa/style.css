@@ -319,26 +319,34 @@
     padding-top: 23px;
 }
 .b-catalog__item-more {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    font-weight: bold;
     display: inline-block;
     height: 38px;
+    line-height: 36px;
     overflow: hidden;
     position: relative;
     right: 8px;
-    text-indent: -9999px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: #f4f4f4 1px 1px 1px;
+    text-transform: uppercase;
     top: 10px;
     width: 183px;
 }
 .b-catalog__item-more_bg_yellow {
-    background: url('img/b-button_more_yellow.png') no-repeat;
+    background: url('img/b-button-small__yellow.png') no-repeat;
 }
 .b-catalog__item-more_bg_red {
-    background: url('img/b-button_more_red.png') no-repeat;
+    background: url('img/b-button-small__red.png') no-repeat;
 }
 .b-catalog__item-more_bg_blue {
-    background: url('img/b-button_more_blue.png') no-repeat;
+    background: url('img/b-button-small__blue.png') no-repeat;
 }
 .b-catalog__item-more_bg_green {
-    background: url('img/b-button_more_green.png') no-repeat;
+    background: url('img/b-button-small__green.png') no-repeat;
 }
 .b-catalog__item-more:hover {
     background-position: 0 -38px;
