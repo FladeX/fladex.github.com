@@ -853,7 +853,7 @@
     background: #fff url('img/b-icon__phone_size_small.png') 11px 13px no-repeat
 }
 .b-callback__submit {
-    background: url('img/b-button__color_blue.png') no-repeat;
+    background: url('img/b-button__big.png') no-repeat;
     border: 0;
     color: #fff;
     cursor: pointer;
@@ -867,20 +867,32 @@
     text-transform: uppercase;
     width: 437px;
 }
-.b-callback__submit_bg_blue {
-    background: url('img/b-button__color_blue.png') no-repeat;
-}
-.b-callback__submit_bg_green {
-    background: url('img/b-button__color_green.png') no-repeat;
-}
-.b-callback__submit_bg_red {
-    background: url('img/b-button__color_red.png') no-repeat;
-}
-.b-callback__submit_bg_yellow {
-    background: url('img/b-button__color_yellow.png') no-repeat;
-}
 .b-callback__submit:hover {
     background-position: 0 -62px;
+}
+.b-callback__submit_bg_blue {
+    background: url('img/b-button__big.png') no-repeat;
+}
+.b-callback__submit_bg_blue:hover {
+    background-position: 0 -62px;
+}
+.b-callback__submit_bg_green {
+    background: url('img/b-button__big.png') 0 -134px no-repeat;
+}
+.b-callback__submit_bg_green:hover {
+    background-position: 0 -196px;
+}
+.b-callback__submit_bg_red {
+    background: url('img/b-button__big.png') 0 -268px no-repeat;
+}
+.b-callback__submit_bg_red:hover {
+    background-position: 0 -330px;
+}
+.b-callback__submit_bg_yellow {
+    background: url('img/b-button__big.png') 0 -402px no-repeat;
+}
+.b-callback__submit_bg_yellow:hover {
+    background-position: 0 -464px;
 }
 
 .b-footer {
