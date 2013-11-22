@@ -336,20 +336,29 @@
     top: 10px;
     width: 183px;
 }
-.b-catalog__item-more_bg_yellow {
-    background: url('img/b-button-small__yellow.png') no-repeat;
-}
-.b-catalog__item-more_bg_red {
-    background: url('img/b-button-small__red.png') no-repeat;
-}
 .b-catalog__item-more_bg_blue {
-    background: url('img/b-button-small__blue.png') no-repeat;
+    background: url('img/b-buttons.png') -467px 0 no-repeat;
+}
+.b-catalog__item-more_bg_blue:hover {
+    background-position: -467px -38px;
 }
 .b-catalog__item-more_bg_green {
-    background: url('img/b-button-small__green.png') no-repeat;
+    background: url('img/b-buttons.png') -467px -134px no-repeat;
 }
-.b-catalog__item-more:hover {
-    background-position: 0 -38px;
+.b-catalog__item-more_bg_green:hover {
+    background-position: -467px -172px;
+}
+.b-catalog__item-more_bg_red {
+    background: url('img/b-buttons.png') -467px -268px no-repeat;
+}
+.b-catalog__item-more_bg_red:hover {
+    background-position: -467px -306px;
+}
+.b-catalog__item-more_bg_yellow {
+    background: url('img/b-buttons.png') -467px -402px no-repeat;
+}
+.b-catalog__item-more_bg_yellow:hover {
+    background-position: -467px -440px;
 }
 
 .b-choose {
@@ -853,7 +862,7 @@
     background: #fff url('img/b-icon__phone_size_small.png') 11px 13px no-repeat
 }
 .b-callback__submit {
-    background: url('img/b-button__big.png') no-repeat;
+    background: url('img/b-buttons.png') no-repeat;
     border: 0;
     color: #fff;
     cursor: pointer;
@@ -871,25 +880,25 @@
     background-position: 0 -62px;
 }
 .b-callback__submit_bg_blue {
-    background: url('img/b-button__big.png') no-repeat;
+    background: url('img/b-buttons.png') no-repeat;
 }
 .b-callback__submit_bg_blue:hover {
     background-position: 0 -62px;
 }
 .b-callback__submit_bg_green {
-    background: url('img/b-button__big.png') 0 -134px no-repeat;
+    background: url('img/b-buttons.png') 0 -134px no-repeat;
 }
 .b-callback__submit_bg_green:hover {
     background-position: 0 -196px;
 }
 .b-callback__submit_bg_red {
-    background: url('img/b-button__big.png') 0 -268px no-repeat;
+    background: url('img/b-buttons.png') 0 -268px no-repeat;
 }
 .b-callback__submit_bg_red:hover {
     background-position: 0 -330px;
 }
 .b-callback__submit_bg_yellow {
-    background: url('img/b-button__big.png') 0 -402px no-repeat;
+    background: url('img/b-buttons.png') 0 -402px no-repeat;
 }
 .b-callback__submit_bg_yellow:hover {
     background-position: 0 -464px;
