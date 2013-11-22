@@ -386,23 +386,41 @@
 .b-choose__form {
     margin-top: 21px;
 }
+.b-choose__label {
+    background: #d6d6d6;
+    border: none;
+    -webkit-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 40px;
+    margin-right: 7px;
+    padding: 5px;
+    width: 216px;
+}
+.b-choose__label_order_last {
+    margin-right: 5px;
+}
 .b-choose__field {
-    background: url('img/b-button_bg.png') no-repeat;
-    border: 0;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    -webkit-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     color: #9b9b9b;
+    display: inline-block;
     font-family: Arial;
     font-size: 16px;
-    height: 45px;
-    margin-right: 7px;
-    padding: 5px 0 0 31px;
-    width: 195px;
+    height: 32px;
+    margin: 0;
+    padding: 6px 10px 0 31px;
+    width: 173px;
 }
 .b-choose__field_data_name {
-    background: url('img/b-icon__name_size_small.png') 12px 18px no-repeat, url('img/b-button_bg.png') 0 0 no-repeat;
+    background: #fff url('img/b-icon__name_size_small.png') 7px 13px no-repeat;
 }
 .b-choose__field_data_phone {
-    background: url('img/b-icon__phone_size_small.png') 12px 18px no-repeat, url('img/b-button_bg.png') 0 0 no-repeat;
-    margin-right: 5px;
+    background: #fff url('img/b-icon__phone_size_small.png') 7px 13px no-repeat;
 }
 .b-choose__field-submit {
     background: url('img/b-button__choose.png') no-repeat;
@@ -410,6 +428,7 @@
     cursor: pointer;
     height: 52px;
     text-indent: -9999px;
+    vertical-align: top;
     width: 192px;
 }
 .b-choose__field-submit:hover {
