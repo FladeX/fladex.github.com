@@ -8,11 +8,13 @@ $(document).ready(function(){
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 1500,
-        randomStart: true,
+        randomStart: false,
         infiniteLoop: true,
         auto: true,
         autoStart: true,
-        pager: false
+        pager: false,
+        speed: 1500,
+        pause: 2500
     });
 
     function unloadPopupBox() {
