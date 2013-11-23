@@ -953,3 +953,222 @@
     position: absolute;
     top: 32px;
 }
+
+.b-popup {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.b-popup__wrapper {
+    background: #fff;
+    left: 50%;
+    margin-left: -397px;
+    padding: 0;
+    position: fixed;
+    _position: absolute;
+    top: 62px;
+    width: 800px;
+    z-index: 6;
+}
+.b-popup__columns {
+    padding-bottom: 21px;
+}
+.b-popup__column_data_graphics {
+    float: left;
+    min-height: 200px;
+    width: 358px;
+}
+.b-popup__photo {
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-top: 76px;
+    text-align: center;
+}
+.b-popup__photo-image {}
+.b-popup__preview-list {
+    list-style: none;
+    margin-left: 37px;
+    margin-top: 13px;
+}
+.b-popup__preview-item {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 102px;
+}
+.b-popup__preview {
+    cursor: pointer;
+}
+.b-popup__column_data_text {
+    float: left;
+    width: 442px;
+}
+.b-popup__text-title {
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 23px;
+    margin-top: 56px;
+    text-transform: uppercase;
+}
+.b-popup__text-subtitle {
+    color: #959595;
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 23px;
+    margin-top: 1px;
+}
+.b-popup__form {
+    background: url('img/b-bg_arrow.png') 128px 95px no-repeat;
+    margin-left: 16px;
+    margin-top: 13px;
+    padding-bottom: 40px;
+}
+.b-popup__form-label {
+    background: #d6d6d6;
+    border: none;
+    -webkit-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 32px;
+    margin-bottom: 9px;
+    margin-right: 1px;
+    padding: 5px;
+    width: 186px;
+}
+.b-popup__form-field {
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    -webkit-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #9b9b9b;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    height: 24px;
+    margin: 0;
+    padding: 6px 10px 0 26px;
+    width: 148px;
+}
+.b-popup__form-field_data_name {
+    background: #fff url('img/b-icon__name_size_small.png') 6px 9px no-repeat;
+}
+.b-popup__form-field_data_phone {
+    background: #fff url('img/b-icon__phone_size_small.png') 7px 8px no-repeat;
+}
+.b-popup__form-text {
+    float: left;
+    font-family: 'Roboto', Arial;
+    font-size: 14px;
+    margin-left: 8px;
+    padding-top: 14px;
+}
+.b-popup__form-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.b-popup__form-submit {
+    background: url('img/b-button__choose.png') no-repeat;
+    border: 0;
+    cursor: pointer;
+    float: right;
+    height: 52px;
+    margin-right: 31px;
+    text-indent: -9999px;
+    vertical-align: top;
+    width: 192px;
+}
+.b-popup__form-submit:hover {
+    background-position: 0 -52px;
+}
+.b-popup__features {
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 7px;
+    margin-right: 26px;
+    margin-top: 5px;
+    padding: 5px 0 8px;
+}
+.b-popup__features-item {
+    color: #000;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 13px;
+    min-height: 35px;
+    padding-left: 69px;
+    padding-top: 9px;
+    width: 139px;
+}
+.b-popup__features-item_bg_car {
+    background: url('img/b-popup__car.png') 21px 7px no-repeat;
+}
+.b-popup__features-item_bg_money {
+    background: url('img/b-popup__money.png') 14px 5px no-repeat;
+    padding-left: 61px;
+}
+.b-popup__text-paragraph {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 30px 0 24px;
+}
+.b-popup__text-image {
+    left: 10px;
+    position: relative;
+    top: -9px;
+    vertical-align: top;
+}
+.b-popup__gift {
+    background: #f4f4f4;
+    padding-bottom: 30px;
+    padding-left: 382px;
+    padding-top: 23px;
+    position: relative;
+}
+.b-popup__gift-image {
+    left: 51px;
+    position: absolute;
+    top: -35px;
+}
+.b-popup__gift-title {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.b-popup__gift-text {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.b-popup__gift-countdown {
+    color: #000;
+    font-family: 'Roboto', Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.b-popup__gift-time {
+    font-size: 36px;
+}
+.b-popup__close {
+    background: url('img/b-popup__close.png') no-repeat;
+    cursor: pointer;
+    height: 23px;
+    position: absolute;
+    right: -58px;
+    top: -43px;
+    width: 23px;
+}

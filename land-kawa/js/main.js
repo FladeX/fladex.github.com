@@ -14,4 +14,23 @@ $(document).ready(function(){
         autoStart: true,
         pager: false
     });
+
+    function unloadPopupBox() {    // TO Unload the Popupbox
+        $('.b-popup').fadeOut("slow");
+        $(".b-page").css({ // this is just for style       
+            "opacity": "1" 
+        });
+    }   
+       
+    function loadPopupBox() {    // To Load the Popupbox
+        $('.b-popup').fadeIn("slow");
+        $(".b-page").css({ // this is just for style
+        });
+    }
+
+    loadPopupBox();
+
+    $('.b-popup__close').on('click', function(){
+        unloadPopupBox();
+    });
 });
