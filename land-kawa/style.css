@@ -23,7 +23,7 @@
 .b-header__title {
     color: #000;
     float: left;
-    font: 16px Arial;
+    font: 16px Arial, Helvetica, sans-serif;
     padding-top: 63px;
     width: 40%;
 }
@@ -34,7 +34,7 @@
 .b-header__phone {
     color: #959595;
     float: right;
-    font: 16px Arial;
+    font: 16px Arial, Helvetica, sans-serif;
     padding-right: 3px;
     padding-top: 60px;
     text-align: right;
@@ -48,7 +48,7 @@
 .b-header__phone-number {
     color: #000;
     display: block;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     position: relative;
@@ -68,7 +68,7 @@
 }
 .b-slider-brands {
     background: #f4f4f4;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 541px;
 }
 .b-slider-brands__wrapper {
@@ -106,7 +106,7 @@
 }
 .b-slider-loyality__title {
     color: #fff;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     padding-top: 357px;
@@ -155,14 +155,14 @@
 }
 .b-slider-slider__title {
     color: #fff;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
 }
 .b-slider-slider__text {
     color: #f28b00;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     line-height: 29px;
     margin-top: 23px;
@@ -232,7 +232,7 @@
 }
 .b-features__block-title {
     color: #000;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 12px;
@@ -242,7 +242,7 @@
 }
 .b-features__block-text {
     color: #000;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
 }
@@ -258,7 +258,7 @@
 }
 .b-catalog__title {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 16px;
@@ -268,7 +268,7 @@
 }
 .b-catalog__subtitle {
     color: #959595;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
     margin-bottom: 39px;
@@ -293,7 +293,7 @@
 .b-catalog__item-photo {}
 .b-catalog__item-title {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     display: block;
@@ -302,7 +302,7 @@
 }
 .b-catalog__item-description {
     color: #959595;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
 }
@@ -314,7 +314,7 @@
 .b-catalog__item-price {
     color: #000;
     display: inline-block;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     padding-right: 32px;
     padding-top: 23px;
@@ -322,7 +322,7 @@
 .b-catalog__item-more {
     background: url('img/b-sprite.png') -467px 0 no-repeat;
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     display: inline-block;
@@ -382,7 +382,7 @@
 }
 .b-choose__title {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     padding-left: 3px;
@@ -390,14 +390,14 @@
 }
 .b-choose__subtitle {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-top: 14px;
     padding-left: 5px;
 }
 .b-choose__description {
     color: #959595;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 14px;
     padding-left: 5px;
@@ -428,7 +428,7 @@
     border-radius: 3px;
     color: #9b9b9b;
     display: inline-block;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     height: 32px;
     margin: 0;
@@ -464,7 +464,7 @@
 }
 .b-benefits__title {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     padding-bottom: 2px;
@@ -492,12 +492,12 @@
     padding-top: 25px;
 }
 .b-benefits__item-title {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
 }
 .b-benefits__item-text {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
     margin-top: 16px;
@@ -517,20 +517,20 @@
     width: 652px;
 }
 .b-about__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     padding-bottom: 13px;
     text-transform: uppercase;
 }
 .b-about__subtitle {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     margin-top: 22px;
 }
 .b-about__text {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
     margin-top: 16px;
@@ -548,7 +548,7 @@
     width: 960px;
 }
 .b-stats__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 20px;
@@ -562,7 +562,7 @@
     background: url('img/b-sprite.png') 0 0 no-repeat;
     display: block;
     float: left;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding-top: 159px;
     text-align: center;
@@ -595,7 +595,7 @@
     width: 960px;
 }
 .b-partners__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -661,7 +661,7 @@
     width: 960px;
 }
 .b-clients__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     line-height: 36px;
@@ -683,19 +683,19 @@
 }
 .b-clients__photo {}
 .b-clients__review-title {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 16px;
     padding-top: 24px;
 }
 .b-clients__review-text {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
 }
 .b-clients__review-signature {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 18px;
 }
@@ -719,7 +719,7 @@
     width: 960px;
 }
 .b-differences__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 22px;
@@ -732,7 +732,7 @@
     width: 447px;
 }
 .b-differences__column-title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-transform: uppercase;
@@ -744,7 +744,7 @@
     color: #2ba500;
 }
 .b-differences__column-item {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     height: 48px;
     margin-top: 18px;
@@ -785,19 +785,19 @@
     top: -67px;
 }
 .b-gift__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
 }
 .b-gift__text {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
     margin-top: 11px;
 }
 .b-gift__countdown {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
@@ -818,13 +818,13 @@
     width: 960px;
 }
 .b-callback__title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
 }
 .b-callback__text {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-top: 13px;
 }
@@ -849,7 +849,7 @@
     -webkit-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     display: block;
     height: 35px;
@@ -869,7 +869,7 @@
     border: 0;
     color: #fff;
     cursor: pointer;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     display: block;
     height: 57px;
@@ -920,7 +920,7 @@
 }
 .b-footer__title {
     float: left;
-    font: 16px Arial;
+    font: 16px Arial, Helvetica, sans-serif;
     padding-top: 65px;
     width: 40%;
 }
@@ -928,7 +928,7 @@
 .b-footer__title-secondary {}
 .b-footer__phone {
     float: right;
-    font: 16px Arial;
+    font: 16px Arial, Helvetica, sans-serif;
     padding-right: 3px;
     padding-top: 62px;
     text-align: right;
@@ -941,7 +941,7 @@
 }
 .b-footer__phone-number {
     display: block;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     position: relative;
@@ -1009,7 +1009,7 @@
     width: 442px;
 }
 .b-popup__text-title {
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     margin-left: 23px;
@@ -1018,7 +1018,7 @@
 }
 .b-popup__text-subtitle {
     color: #959595;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
     margin-left: 23px;
@@ -1051,7 +1051,7 @@
     border-radius: 3px;
     color: #9b9b9b;
     display: inline-block;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     height: 24px;
     margin: 0;
@@ -1066,7 +1066,7 @@
 }
 .b-popup__form-text {
     float: left;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-left: 8px;
     padding-top: 14px;
@@ -1100,7 +1100,7 @@
 .b-popup__features-item {
     color: #000;
     float: left;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 13px;
     min-height: 35px;
@@ -1117,7 +1117,7 @@
 }
 .b-popup__text-paragraph {
     color: #000;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
     padding: 16px 30px 0 24px;
@@ -1142,7 +1142,7 @@
 }
 .b-popup__gift-title {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
     line-height: 30px;
@@ -1150,13 +1150,13 @@
 }
 .b-popup__gift-text {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-top: 4px;
 }
 .b-popup__gift-countdown {
     color: #000;
-    font-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
