@@ -44,4 +44,9 @@ $(document).ready(function(){
     $('.b-popup__close').on('click', function(){
         unloadPopupBox();
     });
+
+    var date = new Date();
+    var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());
+    $('.b-gift__time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
+    $('.b-popup__gift-time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
 });
