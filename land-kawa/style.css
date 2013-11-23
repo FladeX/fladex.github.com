@@ -559,6 +559,7 @@
     list-style: none;
 }
 .b-stats__item {
+    background: url('img/b-sprite.png') 0 0 no-repeat;
     display: block;
     float: left;
     font-family: Arial;
@@ -568,13 +569,13 @@
     width: 320px;
 }
 .b-stats__item_bg_machine {
-    background: url('img/b-icon__stats_bg_machine.png') 106px 42px no-repeat;
+    background-position: 106px -584px;
 }
 .b-stats__item_bg_training {
-    background: url('img/b-icon__stats_bg_training.png') 124px 28px no-repeat;
+    background-position: -179px -598px;
 }
 .b-stats__item_bg_years {
-    background: url('img/b-icon__stats_bg_years.png') 108px 56px no-repeat;
+    background-position: -438px -570px;
 }
 .b-stats__item-data {
     display: block;
