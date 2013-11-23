@@ -15,20 +15,31 @@ $(document).ready(function(){
         pager: false
     });
 
-    function unloadPopupBox() {    // TO Unload the Popupbox
+    function unloadPopupBox() {
         $('.b-popup').fadeOut("slow");
-        $(".b-page").css({ // this is just for style       
+        $(".b-page").css({
             "opacity": "1" 
+        });
+        $('body').css({
+            'overflow': 'visible',
+            'position': 'static'
         });
     }   
        
-    function loadPopupBox() {    // To Load the Popupbox
+    function loadPopupBox() {
         $('.b-popup').fadeIn("slow");
-        $(".b-page").css({ // this is just for style
+        $(".b-page").css({
+        });
+        $('body').css({
+            'overflow': 'hidden',
+            'position': 'relative'
         });
     }
 
-    loadPopupBox();
+    $('.b-catalog__item-more').on('click', function(){
+        loadPopupBox();
+        return false;
+    });
 
     $('.b-popup__close').on('click', function(){
         unloadPopupBox();

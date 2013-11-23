@@ -956,6 +956,7 @@
 
 .b-popup {
     background: rgba(0, 0, 0, 0.75);
+    display: none;
     height: 100%;
     left: 0;
     position: fixed;
