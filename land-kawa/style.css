@@ -299,6 +299,7 @@
     display: block;
     margin-bottom: 8px;
     margin-top: 21px;
+    text-transform: uppercase;
 }
 .b-catalog__item-description {
     color: #959595;
