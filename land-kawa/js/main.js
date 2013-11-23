@@ -17,22 +17,19 @@ $(document).ready(function(){
 
     function unloadPopupBox() {
         $('.b-popup').fadeOut("slow");
-        $(".b-page").css({
-            "opacity": "1" 
-        });
-        $('body').css({
-            'overflow': 'visible',
+        $('.b-page').css({
+            'height': 'auto',
+            'overflow': 'auto',
             'position': 'static'
         });
     }   
        
     function loadPopupBox() {
         $('.b-popup').fadeIn("slow");
-        $(".b-page").css({
-        });
-        $('body').css({
+        $('.b-page').css({
+            'height': '100%',
             'overflow': 'hidden',
-            'position': 'relative'
+            'position': 'fixed'
         });
     }
 

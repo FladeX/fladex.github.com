@@ -956,10 +956,13 @@
 
 .b-popup {
     background: rgba(0, 0, 0, 0.75);
+    bottom: 0;
     display: none;
     height: 100%;
     left: 0;
+    overflow-x: scroll;
     position: fixed;
+    right: 0;
     top: 0;
     width: 100%;
     z-index: 5;
@@ -969,8 +972,7 @@
     left: 50%;
     margin-left: -397px;
     padding: 0;
-    position: fixed;
-    _position: absolute;
+    position: relative;
     top: 62px;
     width: 800px;
     z-index: 6;
