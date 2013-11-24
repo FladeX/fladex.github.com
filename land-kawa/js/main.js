@@ -35,8 +35,20 @@ $(document).ready(function(){
         });
     }
 
-    $('.b-catalog__item-more').on('click', function(){
+    $('.b-catalog__item').on('click', '.b-catalog__item-more', function(){
         loadPopupBox();
+        var $item = $(this).closest('.b-catalog__item');
+        var $popup = $('.b-popup');
+        var coffee = {
+            title: $item.find('.b-catalog__item-title').html(),
+            subtitle: $item.find('.b-catalog__item-description').html(),
+            price: $item.find('.b-catalog__item-price').html(),
+            image: $item.find('.b-catalog__item-photo').attr('src'),
+        };
+        $popup.find('.b-popup__text-title').html(coffee.title).end()
+            .find('.b-popup__text-subtitle').html(coffee.subtitle.replace(new RegExp('<br>', 'g'), ' ')).end()
+            .find('.b-popup__form-price').html(coffee.price).end()
+            .find('.b-popup__photo-image').attr('src', coffee.image);
         return false;
     });
 
