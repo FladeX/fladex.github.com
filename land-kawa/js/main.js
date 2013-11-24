@@ -37,6 +37,16 @@ $(document).ready(function(){
         }).scrollTop(offsetTop);
     }
 
+    function sendMessage(name, phone, brand, form) {
+        $.ajax({
+            url: 'sendmail.php',
+            data: 'name='+name+'&phone='+phone+'&brand='+brand+'&form='+form,
+            type: 'POST',
+            success: function(data){
+            }
+        });
+    }
+
     $('.b-catalog__item').on('click', '.b-catalog__item-more', function(){
         loadPopupBox();
         var $item = $(this).closest('.b-catalog__item');
@@ -66,6 +76,33 @@ $(document).ready(function(){
     $('.b-popup__close').on('click', function(){
         unloadPopupBox();
     });
+
+    $('.b-popup__form').on('submit', function() {
+        var name = $(this).find('[name="name"]').val();
+        var phone = $(this).find('[name="phone"]').val();
+        var brand = $('.b-popup').find('.b-popup__text-title').html();
+        var form = '1 (попап)';
+        sendMessage(name, phone, brand, form);
+        return false;
+    });
+
+    $('.b-choose__form').on('submit', function() {
+        var name = $(this).find('[name="name"]').val();
+        var phone = $(this).find('[name="phone"]').val();
+        var brand = 'нет (требуется консультация)';
+        var form = '2 (Не знаете какой кофе выбрать?)';
+        sendMessage(name, phone, brand, form);
+        return false;
+    });
+
+    $('.b-callback__form').on('submit', function() {
+        var name = $(this).find('[name="name"]').val();
+        var phone = $(this).find('[name="phone"]').val();
+        var brand = 'нет (требуется консультация)';
+        var form = '3 (Не смогли выбрать кофе?)';
+        sendMessage(name, phone, brand, form);
+        return false;
+    }
 
     var date = new Date();
     var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());

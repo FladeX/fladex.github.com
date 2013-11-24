@@ -170,12 +170,12 @@
             <h2 class="b-choose__title">Не знаете какой кофе выбрать?</h2>
             <p class="b-choose__subtitle">Бесплатная консультация по подбору кофе. Мы поможем выбрать лучшее.</p>
             <p class="b-choose__description">Оставьте свои данные для получения консультации.</p>
-            <form class="b-choose__form">
+            <form class="b-choose__form" method="post">
                 <label class="b-choose__label">
-                    <input type="text" class="b-choose__field b-choose__field_data_name" placeholder="Имя" />
+                    <input type="text" class="b-choose__field b-choose__field_data_name" placeholder="Имя" name="name" />
                 </label>
                 <label class="b-choose__label b-choose__label_order_last">
-                    <input type="text" class="b-choose__field b-choose__field_data_phone" placeholder="Телефон" />
+                    <input type="text" class="b-choose__field b-choose__field_data_phone" placeholder="Телефон" name="phone" />
                 </label>
                 <input type="submit" class="b-choose__field-submit" value="Подобрать кофе" />
             </form>
@@ -317,12 +317,12 @@
             <h2 class="b-choose__title">Не знаете какой кофе выбрать?</h2>
             <p class="b-choose__subtitle">Бесплатная консультация по подбору кофе. Мы поможем выбрать лучшее.</p>
             <p class="b-choose__description">Оставьте свои данные для получения консультации.</p>
-            <form class="b-choose__form">
+            <form class="b-choose__form" method="post">
                 <label class="b-choose__label">
-                    <input type="text" class="b-choose__field b-choose__field_data_name" placeholder="Имя" />
+                    <input type="text" class="b-choose__field b-choose__field_data_name" placeholder="Имя" name="name" />
                 </label>
                 <label class="b-choose__label b-choose__label_order_last">
-                    <input type="text" class="b-choose__field b-choose__field_data_phone" placeholder="Телефон" />
+                    <input type="text" class="b-choose__field b-choose__field_data_phone" placeholder="Телефон" name="phone" />
                 </label>
                 <input type="submit" class="b-choose__field-submit" value="Подобрать кофе" />
             </form>
@@ -446,12 +446,12 @@
         <div class="b-callback__wrapper">
             <h2 class="b-callback__title">Не смогли выбрать кофе?</h2>
             <p class="b-callback__text">Введите свои контакты в форму ниже и Вам перезвонит менеджер.</p>
-            <form class="b-callback__form">
+            <form class="b-callback__form" method="post">
                 <label class="b-callback__label">
-                    <input class="b-callback__field b-callback__field_data_name" type="text" placeholder="Имя" value="" />
+                    <input class="b-callback__field b-callback__field_data_name" type="text" name="name" placeholder="Имя" value="" />
                 </label>
                 <label class="b-callback__label">
-                    <input class="b-callback__field b-callback__field_data_phone" type="text" placeholder="Телефон" value="" />
+                    <input class="b-callback__field b-callback__field_data_phone" type="text" name="phone" placeholder="Телефон" value="" />
                 </label>
                 <input class="b-callback__submit b-callback__submit_bg_yellow" type="submit" value="Подберите кофе для меня" />
             </form>
@@ -495,7 +495,7 @@
             <div class="b-popup__column_data_text">
                 <h2 class="b-popup__text-title">Arcaffe Roma</h2>
                 <p class="b-popup__text-subtitle">идеально сочетается с молоком <br />уже больше 90 лет</p>
-                <form class="b-popup__form i-clearfix">
+                <form class="b-popup__form i-clearfix" method="post">
                     <label class="b-popup__form-label">
                         <input class="b-popup__form-field b-popup__form-field_data_name" type="text" placeholder="Имя" name="name" value="" />
                     </label>
