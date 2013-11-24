@@ -102,7 +102,7 @@ $(document).ready(function(){
         var form = '3 (Не смогли выбрать кофе?)';
         sendMessage(name, phone, brand, form);
         return false;
-    }
+    });
 
     var date = new Date();
     var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());
