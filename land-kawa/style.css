@@ -987,6 +987,7 @@
     width: 358px;
 }
 .b-popup__photo {
+    min-height: 270px;
     padding-bottom: 30px;
     padding-left: 24px;
     padding-top: 76px;

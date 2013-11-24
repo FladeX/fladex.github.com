@@ -48,9 +48,13 @@ $(document).ready(function(){
         $popup.find('.b-popup__text-title').html(coffee.title).end()
             .find('.b-popup__text-subtitle').html(coffee.subtitle.replace(new RegExp('<br>', 'g'), ' ')).end()
             .find('.b-popup__form-price').html(coffee.price).end()
-            .find('.b-popup__photo-image').attr('src', coffee.image);
+            .find('.b-popup__photo-image').attr('src', coffee.image).attr('alt', coffee.title);
         return false;
     });
+
+    $('.b-popup').on('click', '.b-popup__preview', function(){
+        $(this).closest('.b-popup').find('.b-popup__photo-image').attr('src', $(this).data('src'));
+    })
 
     $('.b-popup__close').on('click', function(){
         unloadPopupBox();
