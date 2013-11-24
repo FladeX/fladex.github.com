@@ -24,15 +24,17 @@ $(document).ready(function(){
             'overflow': 'auto',
             'position': 'static'
         });
+        $(window).scrollTop(offsetTop);
     }   
        
     function loadPopupBox() {
+        offsetTop = $(window).scrollTop();
         $('.b-popup').fadeIn("slow");
         $('.b-page').css({
             'height': '100%',
             'overflow': 'hidden',
             'position': 'fixed'
-        });
+        }).scrollTop(offsetTop);
     }
 
     $('.b-catalog__item').on('click', '.b-catalog__item-more', function(){
@@ -69,4 +71,6 @@ $(document).ready(function(){
     var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());
     $('.b-gift__time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
     $('.b-popup__gift-time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
+
+    var offsetTop = 0;
 });
