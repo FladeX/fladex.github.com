@@ -44,11 +44,16 @@ $(document).ready(function(){
             subtitle: $item.find('.b-catalog__item-description').html(),
             price: $item.find('.b-catalog__item-price').html(),
             image: $item.find('.b-catalog__item-photo').attr('src'),
+            text: $item.data('text')
         };
+        $popup.find('.b-popup__text-paragraph').remove();
         $popup.find('.b-popup__text-title').html(coffee.title).end()
             .find('.b-popup__text-subtitle').html(coffee.subtitle.replace(new RegExp('<br>', 'g'), ' ')).end()
             .find('.b-popup__form-price').html(coffee.price).end()
             .find('.b-popup__photo-image').attr('src', coffee.image).attr('alt', coffee.title);
+        if (typeof(coffee.text) !== 'undefined') {
+            $popup.find('.b-popup__column_data_text').append('<div class="i-popup__text">' + coffee.text + '</div>').find('.i-popup__text p').addClass('b-popup__text-paragraph');
+        }
         return false;
     });
 
