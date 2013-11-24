@@ -188,9 +188,12 @@ body {
 }
 .b-catalog__submenu-item {
 	background: #416c8f url('img/b-catalog-submenu_bg.png') repeat-x;
+	color: #fff;
 	cursor: pointer;
+	display: block;
 	height: 50px;
 	line-height: 50px;
+	text-decoration: none;
 	width: 100%;
 }
 .b-catalog__list-item:hover .b-catalog__submenu {
