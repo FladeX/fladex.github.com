@@ -108,7 +108,8 @@ $(document).ready(function(){
     });
 
     $('.b-clients').on('click', '.b-client__review-link', function() {
-        $('#parana').find('.b-catalog__item-more').trigger('click');
+        var sort = $(this).data('sort');
+        $('#' + sort).find('.b-catalog__item-more').trigger('click');
         return false;
     });
 
