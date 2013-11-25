@@ -1093,18 +1093,18 @@
     font-weight: bold;
 }
 .b-popup__form-submit {
-    background: url('img/b-button__choose.png') no-repeat;
+    background: url('img/b-button__choose_color_red.png') no-repeat;
     border: 0;
+    color: #fff;
     cursor: pointer;
     float: right;
+    font: 16px 'Roboto', Arial, Helvetica, sans-serif;
     height: 52px;
     margin-right: 31px;
-    text-indent: -9999px;
+    text-shadow: -1px -1px 1px #000;
+    text-transform: uppercase;
     vertical-align: top;
     width: 192px;
-}
-.b-popup__form-submit:hover {
-    background-position: 0 -52px;
 }
 .b-popup__features {
     border-bottom: 1px solid #d6d6d6;
