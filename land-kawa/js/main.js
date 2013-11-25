@@ -64,7 +64,7 @@ $(document).ready(function(){
             .find('.b-popup__form-price').html(coffee.price).end()
             .find('.b-popup__photo-image').attr('src', coffee.image).attr('alt', coffee.title);
         if (typeof(coffee.text) !== 'undefined') {
-            $popup.find('.b-popup__column_data_text').append('<div class="i-popup__text">' + coffee.text + '</div>').find('.i-popup__text p').addClass('b-popup__text-paragraph');
+            $popup.find('.b-popup__column_data_text').append('<div class="i-popup__text">' + coffee.text + '</div>').find('.i-popup__text p').addClass('b-popup__text-paragraph').end().find('.i-popup__text p img').addClass('b-popup__text-image');
         }
         return false;
     });
