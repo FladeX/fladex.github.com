@@ -104,6 +104,11 @@ $(document).ready(function(){
         return false;
     });
 
+    $('.b-clients').on('click', '.b-client__review-link', function(){
+        $('#parana').find('.b-catalog__item-more').trigger('click');
+        return false;
+    });
+
     var date = new Date();
     var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());
     $('.b-gift__time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}&nbsp;{hl} {mn}&nbsp;{ml} {sn}&nbsp;{sl}', timezone: +3});
