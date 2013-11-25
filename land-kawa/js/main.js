@@ -69,11 +69,11 @@ $(document).ready(function(){
         return false;
     });
 
-    $('.b-popup').on('click', '.b-popup__preview', function(){
+    $('.b-popup').on('click', '.b-popup__preview', function() {
         $(this).closest('.b-popup').find('.b-popup__photo-image').attr('src', $(this).data('src'));
     })
 
-    $('.b-popup__close').on('click', function(){
+    $('.b-popup__close').on('click', function() {
         unloadPopupBox();
     });
 
@@ -104,8 +104,14 @@ $(document).ready(function(){
         return false;
     });
 
-    $('.b-clients').on('click', '.b-client__review-link', function(){
+    $('.b-clients').on('click', '.b-client__review-link', function() {
         $('#parana').find('.b-catalog__item-more').trigger('click');
+        return false;
+    });
+
+    $('.b-popup').click(function() {
+        unloadPopupBox();
+    }).children().click(function() {
         return false;
     });
 
