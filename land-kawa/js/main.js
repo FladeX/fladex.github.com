@@ -42,7 +42,10 @@ $(document).ready(function(){
             url: 'sendmail.php',
             data: 'name='+name+'&phone='+phone+'&brand='+brand+'&form='+form,
             type: 'POST',
-            success: function(data){
+            success: function(data) {
+                setTimeout(function() {
+                    unloadPopupBox();
+                }, 3000);
             }
         });
     }
