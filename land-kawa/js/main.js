@@ -43,9 +43,6 @@ $(document).ready(function(){
             data: 'name='+name+'&phone='+phone+'&brand='+brand+'&form='+form,
             type: 'POST',
             success: function(data) {
-                setTimeout(function() {
-                    unloadPopupBox();
-                }, 3000);
             }
         });
     }
@@ -69,23 +66,6 @@ $(document).ready(function(){
         if (typeof(coffee.text) !== 'undefined') {
             $popup.find('.b-popup__column_data_text').append('<div class="i-popup__text">' + coffee.text + '</div>').find('.i-popup__text p').addClass('b-popup__text-paragraph').end().find('.i-popup__text p img').addClass('b-popup__text-image');
         }
-        return false;
-    });
-
-    $('.b-popup').on('click', '.b-popup__preview', function() {
-        $(this).closest('.b-popup').find('.b-popup__photo-image').attr('src', $(this).data('src'));
-    })
-
-    $('.b-popup__close').on('click', function() {
-        unloadPopupBox();
-    });
-
-    $('.b-popup__form').on('submit', function() {
-        var name = $(this).find('[name="name"]').val();
-        var phone = $(this).find('[name="phone"]').val();
-        var brand = $('.b-popup').find('.b-popup__text-title').html();
-        var form = '1 (попап)';
-        sendMessage(name, phone, brand, form);
         return false;
     });
 
@@ -115,7 +95,21 @@ $(document).ready(function(){
 
     $('.b-popup').click(function() {
         unloadPopupBox();
-    }).children().click(function() {
+    }).find('.b-popup__preview').click(function() {
+        $(this).closest('.b-popup').find('.b-popup__photo-image').attr('src', $(this).data('src'));
+    }).end().find('.b-popup__close').click(function() {
+        unloadPopupBox();
+    }).end().find('.b-popup__form-submit').click(function() {
+        var name = $(this).find('[name="name"]').val();
+        var phone = $(this).find('[name="phone"]').val();
+        var brand = $('.b-popup').find('.b-popup__text-title').html();
+        var form = '1 (попап)';
+        sendMessage(name, phone, brand, form);
+        setTimeout(function() {
+            unloadPopupBox();
+        }, 3000);
+        return false;
+    }).end().children().click(function() {
         return false;
     });
 
