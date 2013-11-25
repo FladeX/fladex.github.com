@@ -982,7 +982,6 @@
     z-index: 5;
 }
 .b-popup__wrapper {
-    background: #fff;
     left: 50%;
     margin-left: -397px;
     padding: 0;
@@ -992,6 +991,7 @@
     z-index: 6;
 }
 .b-popup__columns {
+    background: #fff;
     padding-bottom: 21px;
 }
 .b-popup__column_data_graphics {
@@ -1180,6 +1180,10 @@
 }
 .b-popup__gift-time {
     font-size: 36px;
+}
+.b-popup__indent {
+    background: transparent;
+    height: 62px;
 }
 .b-popup__close {
     background: url('img/b-popup__close.png') no-repeat;
