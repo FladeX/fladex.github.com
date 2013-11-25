@@ -106,8 +106,8 @@ $(document).ready(function(){
 
     var date = new Date();
     var timeLeft = 86400 - (60 * ( (60 * date.getHours()) + date.getMinutes() ) + date.getSeconds());
-    $('.b-gift__time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
-    $('.b-popup__gift-time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}:{mn}:{sn}', timezone: +3});
+    $('.b-gift__time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}&nbsp;{hl} {mn}&nbsp;{ml} {sn}&nbsp;{sl}', timezone: +3});
+    $('.b-popup__gift-time').countdown({until: timeLeft, format: 'dHMS', layout: '{hn}&nbsp;{hl} {mn}&nbsp;{ml} {sn}&nbsp;{sl}', timezone: +3});
 
     var offsetTop = 0;
 });
