@@ -1,5 +1,4 @@
 var popup_preview = function(src) {
-    console.log(src);
     $('.b-popup').find('.b-popup__photo-image').attr('src', src);
 }
 
