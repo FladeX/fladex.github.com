@@ -1,3 +1,8 @@
+var popup_preview = function(src) {
+    console.log(src);
+    $('.b-popup').find('.b-popup__photo-image').attr('src', src);
+}
+
 $(document).ready(function(){
     $('.bxslider').bxSlider({
         mode: 'horizontal',
@@ -65,6 +70,17 @@ $(document).ready(function(){
             .find('.b-popup__photo-image').attr('src', coffee.image).attr('alt', coffee.title);
         if (typeof(coffee.text) !== 'undefined') {
             $popup.find('.b-popup__column_data_text').append('<div class="i-popup__text">' + coffee.text + '</div>').find('.i-popup__text p').addClass('b-popup__text-paragraph').end().find('.i-popup__text p img').addClass('b-popup__text-image');
+        }
+        if ($item.find('.b-catalog__item-preview').length > 0) {
+            $popup.find('.b-popup__preview-list').empty();
+            $item.find('.b-catalog__item-preview').each(function(i,elem) {
+                $(this).removeClass('b-catalog__item-preview').addClass('b-popup__preview');
+                var $preview = $('<li></li>');
+                $preview.addClass('b-popup__preview-item').append( $(this) )
+                    .find('.b-catalog__item-preview').removeClass('b-catalog__item-preview').addClass('b-popup__preview');
+                $preview.find('.b-popup__preview').attr('onclick', 'popup_preview("' + $(this).data('src') + '")');
+                $popup.find('.b-popup__preview-list').append($preview);
+            });
         }
         return false;
     });

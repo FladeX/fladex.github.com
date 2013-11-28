@@ -376,6 +376,9 @@
 .b-catalog__item-more_bg_yellow:hover {
     background-position: -467px -440px;
 }
+.b-catalog__item-preview {
+    display: none;
+}
 
 .b-choose {
     background: #f4f4f4;
