@@ -22,23 +22,25 @@ $(document).ready(function(){
     });
 
     function unloadPopupBox() {
-        $('.b-popup').fadeOut("slow");
-        $('.b-page').css({
-            'height': 'auto',
-            'overflow': 'auto',
-            'position': 'static'
+        $('.b-popup').fadeOut("slow", function(){
+            $('.b-page').css({
+                'height': 'auto',
+                'overflow': 'auto',
+                'position': 'static'
+            });
+            $(window).scrollTop(offsetTop);
         });
-        $(window).scrollTop(offsetTop);
     }   
        
     function loadPopupBox() {
         offsetTop = $(window).scrollTop();
-        $('.b-popup').fadeIn("slow");
-        $('.b-page').css({
-            'height': '100%',
-            'overflow': 'hidden',
-            'position': 'fixed'
-        }).scrollTop(offsetTop);
+        $('.b-popup').fadeIn("slow", function(){
+            $('.b-page').css({
+                'height': '100%',
+                'overflow': 'hidden',
+                'position': 'fixed'
+            }).scrollTop(offsetTop);
+        });
     }
 
     function sendMessage(name, phone, brand, form) {
