@@ -34,13 +34,12 @@ $(document).ready(function(){
        
     function loadPopupBox() {
         offsetTop = $(window).scrollTop();
-        $('.b-popup').fadeIn("slow", function(){
-            $('.b-page').css({
-                'height': '100%',
-                'overflow': 'hidden',
-                'position': 'fixed'
-            }).scrollTop(offsetTop);
-        });
+        $('.b-page').css({
+            'height': '100%',
+            'overflow': 'hidden',
+            'position': 'fixed'
+        }).scrollTop(offsetTop);
+        $('.b-popup').fadeIn("slow");
     }
 
     function sendMessage(name, phone, brand, form) {
