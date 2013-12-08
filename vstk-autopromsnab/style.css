@@ -1,5 +1,13 @@
-.clear {
+.i-clearfix:before,
+.i-clearfix:after {
+	content: "";
+	display: table;
+}
+.i-clearfix:after {
 	clear: both;
+}
+.i-clearfix {
+	zoom: 1;
 }
 .b-page {
 	background: #ede6d7 url(images/page_bg.png) repeat-x;
