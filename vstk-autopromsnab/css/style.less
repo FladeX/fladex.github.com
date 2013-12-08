@@ -1,3 +1,7 @@
+@font: Arial, Tahoma, Verdana, sans-serif;
+@font_main: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+@font_additional: 'Myriad Pro', Verdana, Tahoma, Arial, Helvetica, sans-serif;
+
 .i-clearfix:before,
 .i-clearfix:after {
 	content: "";
@@ -11,7 +15,7 @@
 }
 .b-page {
 	background: #ede6d7 url('../images/page_bg.png') repeat-x;
-	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font;
 }
 .b-page_state_second {
 	background-image: url('../images/page_second_bg.png');
@@ -99,7 +103,7 @@
 }
 .b-menu-top__link {
 	color: #1e1e1e;
-	font-family: 'Myriad Pro';
+	font-family: @font_additional;
 	font-size: 24px;
 	text-decoration: none;
 }
@@ -110,7 +114,7 @@
 }
 .b-header__phone {
 	color: #a19b5e;
-	font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font_main;
 	font-size: 21px;
 	font-stretch: condensed;
 	position: absolute;
@@ -152,7 +156,7 @@
 	background: url('../images/icon_price.png') no-repeat 37px 0;
 	color: #5e4a3a;
 	display: inline-block;
-	font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font_main;
 	font-size: 13px;
 	font-stretch: condensed;
 	font-weight: normal;
@@ -293,7 +297,7 @@
 }
 .b-announce__link {
 	color: #617844;
-	font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font_main;
 	font-size: 15px;
 	font-stretch: condensed;
 	line-height: 21px;
@@ -348,7 +352,7 @@
 }
 .b-widget__title {
 	color: #6e5a4a;
-	font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font_main;
 	font-size: 26px;
 	font-stretch: condensed;
 	margin-bottom: 6px;
@@ -379,7 +383,7 @@
 	padding: 1px;
 }
 .b-widget__entry-title {
-	font-family: 'Arial Narrow', Arial, Tahoma, Verdana, sans-serif;
+	font-family: @font_main;
 	font-size: 17px;
 	font-stretch: condensed;
 	line-height: 21px;
