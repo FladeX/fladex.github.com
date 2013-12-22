@@ -1,0 +1,63 @@
+@media (max-width: 1020px) {
+	header#header {
+		width: 100%;
+	}
+}
+@media (max-width: 1000px) {
+	body {
+		min-width: 240px;
+		width: 100%;
+	}
+	header#header {
+		width: 100%;
+	}
+	div#header_girls {
+		background-image: none;
+	}
+	#main {
+		width: 100%;
+	}
+	nav.header_menu {
+		display: none;
+	}
+	#primary {
+		float: none;
+		margin: 0 auto;
+		padding: 18px 20px;
+		width: 90%;
+	}
+	#secondary {
+		display: none;
+	}
+	#footer .footer_wrap {
+		width: 100%;
+	}
+	#footer .footer_copyright {
+		float: none;
+		padding-top: 4px;
+		text-align: center;
+		width: 100%;
+	}
+	#footer .footer_menu {
+		padding-top: 5px;
+		width: 100%;
+	}
+	.footer_copyright_description {
+		display: none;
+	}
+	#footer .footer_counts img {
+		display: none;
+	}
+}
+@media (max-width: 560px) {
+	.header_description {
+		display: none;
+	}
+	.post .entry-meta {
+		display: none;
+	}
+	.post .entry-content img {
+		height: auto;
+		max-width: 100%;
+	}
+}
