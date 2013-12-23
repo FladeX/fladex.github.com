@@ -289,11 +289,21 @@ body {
 	padding-bottom: 5px;
 	position: relative;
 }
-.b-partners__content {
-	margin-left: -20px;
-	text-align: justify;
-	vertical-align: baseline;
+.b-partners__wrapper {
+	left: 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
 	width: 960px;
+}
+.b-partners__content {
+	left: 0;
+	margin-left: -20px;
+	position: relative;
+	text-align: justify;
+	top: 0;
+	vertical-align: middle;
+	width: 10000px;
 }
 .b-partners__content img {
 	margin-left: 20px;
