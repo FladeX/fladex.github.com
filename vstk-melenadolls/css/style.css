@@ -88,3 +88,8 @@ figure {
 .page {
   background: url('../img/bg.jpg') center 0 no-repeat;
 }
+.menu {}
+.menu__wrapper {}
+.menu__list {}
+.menu__item {}
+.menu__link {}
