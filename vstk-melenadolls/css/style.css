@@ -119,16 +119,17 @@
   background: url('../img/bg_social.png') no-repeat;
   float: left;
   height: 33px;
-  padding-left: 14px;
+  padding-left: 20px;
+  padding-right: 6px;
   padding-top: 23px;
-  width: 136px;
+  width: 130px;
 }
 .footer__social-link {
   background-image: url('../img/icon_social.png');
   background-repeat: no-repeat;
   display: inline-block;
   height: 24px;
-  width: 28px;
+  width: 24px;
 }
 .footer__social-link_icon_vk {
   background-position: 0 0;
@@ -143,21 +144,27 @@
   background-position: -23px -24px;
 }
 .footer__social-link_icon_odnoklassniki {
-  background-position: -46px 0;
+  background-position: -50px 0;
 }
 .footer__social-link_icon_odnoklassniki:hover {
-  background-position: -46px -24px;
+  background-position: -50px -24px;
 }
 .footer__social-link_icon_pinterest {
-  background-position: -69px 0;
+  background-position: -72px 0;
 }
 .footer__social-link_icon_pinterest:hover {
-  background-position: -69px -24px;
+  background-position: -72px -24px;
 }
 .footer__copyright {
   color: #5c5b5b;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   font-size: 14px;
+  padding-top: 16px;
+}
+.footer__copyright-years {
+  display: block;
+  font-size: 15px;
+  line-height: 16px;
 }
 .content {}
 .content__title {
