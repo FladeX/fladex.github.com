@@ -103,7 +103,10 @@
   line-height: 20px;
 }
 .banner__currency {}
-.footer {}
+.footer {
+  bottom: 0;
+  position: fixed;
+}
 .footer__social {
   background: url('../img/bg_social.png') no-repeat;
   float: left;
