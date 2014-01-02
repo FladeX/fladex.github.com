@@ -1,86 +1,11 @@
-/*
-  960 Grid System ~ Text CSS.
-  Learn more ~ http://960.gs/
-
-  Licensed under GPL and MIT.
-*/
-
-/* `Basic HTML
-----------------------------------------------------------------------------------------------------*/
-
-body {
-  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
-}
-
-pre,
-code {
-  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
-}
-
-hr {
-  border: 0 solid #ccc;
-  border-top-width: 1px;
-  clear: both;
-  height: 0;
-}
-
-/* `Headings
-----------------------------------------------------------------------------------------------------*/
-
-h1 {
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 23px;
-}
-
-h3 {
-  font-size: 21px;
-}
-
-h4 {
-  font-size: 19px;
-}
-
-h5 {
-  font-size: 17px;
-}
-
-h6 {
-  font-size: 15px;
-}
-
-/* `Spacing
-----------------------------------------------------------------------------------------------------*/
-
-p,
-dl,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-ul,
-pre,
-table,
-address,
-fieldset,
-figure {
-  margin-bottom: 20px;
-}
-
 .page {
   background: url('../img/bg.jpg') center 0 no-repeat;
 }
 .language {
-  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 .language__switch {
-  background: url('../img/icon_arrow_ltr.png') no-repeat;
+  background: url('../img/icon_arrow_ltr.png') 0 -4px no-repeat;
   color: #5c5b5b;
   display: inline-block;
   font-family: 'Calibry';
@@ -129,8 +54,27 @@ figure {
   background: url('../img/icon_big_arrow_ltr.png') 100% 9px no-repeat;
   color: #434343;
 }
-.cart {}
-.banner {}
+.cart {
+  color: #8e8d8c;
+}
+.cart__item {
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 14px;
+}
+.cart__price {
+  font-family: Gabriola;
+  font-size: 24px;
+}
+.banner {
+  color: #40784b;
+  font-family: Gabriola;
+  font-size: 24px;
+}
+.banner__price {
+  font-size: 44px;
+  line-height: 20px;
+}
+.banner__currency {}
 .footer {}
 .footer__social {}
 .footer__social-link {}
@@ -138,3 +82,8 @@ figure {
 .footer__social-link_icon_facebook {}
 .footer__social-link_icon_odnoklassniki {}
 .footer__social-link_icon_pinterest {}
+.footer__copyright {
+  color: #5c5b5b;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 14px;
+}
