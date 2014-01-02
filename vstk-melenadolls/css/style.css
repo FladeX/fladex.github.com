@@ -76,12 +76,45 @@
 }
 .banner__currency {}
 .footer {}
-.footer__social {}
-.footer__social-link {}
-.footer__social-link_icon_vk {}
-.footer__social-link_icon_facebook {}
-.footer__social-link_icon_odnoklassniki {}
-.footer__social-link_icon_pinterest {}
+.footer__social {
+  background: url('../img/bg_social.png') no-repeat;
+  float: left;
+  height: 33px;
+  padding-left: 14px;
+  padding-top: 23px;
+  width: 136px;
+}
+.footer__social-link {
+  background-image: url('../img/icon_social.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 28px;
+}
+.footer__social-link_icon_vk {
+  background-position: 0 0;
+}
+.footer__social-link_icon_vk:hover {
+  background-position: 0 -24px;
+}
+.footer__social-link_icon_facebook {
+  background-position: -23px 0;
+}
+.footer__social-link_icon_facebook:hover {
+  background-position: -23px -24px;
+}
+.footer__social-link_icon_odnoklassniki {
+  background-position: -46px 0;
+}
+.footer__social-link_icon_odnoklassniki:hover {
+  background-position: -46px -24px;
+}
+.footer__social-link_icon_pinterest {
+  background-position: -69px 0;
+}
+.footer__social-link_icon_pinterest:hover {
+  background-position: -69px -24px;
+}
 .footer__copyright {
   color: #5c5b5b;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
