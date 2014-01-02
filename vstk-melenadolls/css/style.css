@@ -1,8 +1,15 @@
 .page {
   background: #b9b2ac url('../img/bg.jpg') center 0 no-repeat;
 }
+.logo {
+  padding: 0;
+}
+.logo__image {
+  padding: 0;
+}
 .language {
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  padding: 22px 0 0 5px;
 }
 .language__switch {
   background: url('../img/icon_arrow_ltr.png') 0 -4px no-repeat;
@@ -33,17 +40,19 @@
 .language__switch-link_state_active:hover {
 
 }
-.menu {}
-.menu__wrapper {}
+.menu {
+  padding: 14px 0 0 6px;
+}
 .menu__list {}
 .menu__item {
   font-family: Gabriola;
   font-size: 27px;
+  line-height: 37px;
 }
 .menu__link {
   color: #8d8e8c;
   display: inline-block;
-  padding-right: 28px;
+  padding-right: 26px;
   text-decoration: none;
 }
 .menu__link:hover {
@@ -51,19 +60,38 @@
   text-decoration: none;
 }
 .menu__link_state_active {
-  background: url('../img/icon_big_arrow_ltr.png') 100% 9px no-repeat;
+  background: url('../img/icon_big_arrow_ltr.png') 100% 10px no-repeat;
   color: #434343;
 }
 .cart {
   color: #8e8d8c;
+  margin-left: 41px;
+  margin-top: 17px;
+  position: relative;
+}
+.cart__icon {
+  background: url('../img/icon_cart.png') 0 0 no-repeat;
+  display: block;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 31px;
+}
+.cart__icon:hover {
+  background-position: -31px 0;
 }
 .cart__item {
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   font-size: 14px;
+  line-height: 12px;
+  margin-left: 43px;
 }
 .cart__price {
   font-family: Gabriola;
-  font-size: 24px;
+  font-size: 26px;
+  line-height: 24px;
+  margin-left: 43px;
 }
 .banner {
   color: #40784b;

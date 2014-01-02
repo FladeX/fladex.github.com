@@ -13,18 +13,20 @@
     <div class="container_12">
         <div class="grid_4 sidebar">
             <div class="container_4">
-                <div class="grid_4 alpha omega">
-                    <a href="#"><img src="img/melena_dolls.png" alt="Melena Dolls" /></a>
+                <div class="grid_4 alpha omega logo">
+                    <a href="#"><img class="logo__image" src="img/melena_dolls.png" alt="Melena Dolls" /></a>
                 </div>
                 <div class="clear"></div>
-                <div class="grid_1 alpha language">
-                    <span class="language__switch language__switch_lang_ru language__switch_state_active">
-                        <a class="language__switch-link" href="#">Рус</a>
-                    </span><br />
-                    <span class="language__switch language__switch_lang_en">Eng</span>
+                <div class="grid_1 alpha">
+                    <div class="language">
+                        <span class="language__switch language__switch_lang_ru language__switch_state_active">
+                            <a class="language__switch-link" href="#">Рус</a>
+                        </span><br />
+                        <span class="language__switch language__switch_lang_en">Eng</span>
+                    </div>
                 </div>
-                <div class="grid_3 omega menu">
-                    <nav class="menu__wrapper">
+                <div class="grid_3 omega">
+                    <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__item"><a class="menu__link" href="#">Куклы</a></li>
                             <li class="menu__item"><a class="menu__link" href="#">Розыгрыши</a></li>
@@ -34,9 +36,12 @@
                     </nav>
                 </div>
                 <div class="clear"></div>
-                <div class="grid_4 alpha omega cart">
-                    <p class="cart__item">2 куклы на</p>
-                    <p class="cart__price">3,500 рублей</p>
+                <div class="grid_4 alpha omega">
+                    <div class="cart">
+                        <span class="cart__icon"></span>
+                        <p class="cart__item">2 куклы на</p>
+                        <p class="cart__price">3,500 рублей</p>
+                    </div>
                 </div>
                 <div class="clear"></div>
                 <div class="grid_4 alpha omega banner">
@@ -84,6 +89,6 @@
         <div class="clear"></div>
     </div>
 </div>
-<div style="background: url('original.png') center 0 no-repeat; position: absolute; top: 0; left: 0; height: 920px; width: 100%; opacity: 0.5;"></div>
+<div style="display: none; background: url('original.png') center 0 no-repeat; position: absolute; top: 0; left: 15px; height: 920px; width: 100%; opacity: 0.5;"></div>
 </body>
 </html>
