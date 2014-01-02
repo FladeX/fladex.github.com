@@ -1,5 +1,5 @@
 .page {
-  background: url('../img/bg.jpg') center 0 no-repeat;
+  background: #b9b2ac url('../img/bg.jpg') center 0 no-repeat;
 }
 .language {
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
@@ -139,4 +139,25 @@
   font-size: 20px;
   line-height: 20px;
   margin-bottom: 30px;
+}
+.content__gallery {
+  margin-top: 30px;
+}
+.content__gallery-column {
+  float: left;
+}
+.content__gallery-column_col_first {
+  margin-right: 6px;
+  width: 186px;
+}
+.content__gallery-column_col_second {
+  margin-right: 6px;
+  width: 316px;
+}
+.content__gallery-column_col_third {
+  width: 104px;
+}
+.content__gallery-image {
+  margin-bottom: 6px;
+  opacity: 0.3;
 }
