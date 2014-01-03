@@ -67,7 +67,7 @@ html, body {
   text-decoration: none;
 }
 .menu__link_state_active {
-  background: url('../img/icon_big_arrow_ltr.png') 100% 10px no-repeat;
+  background: url('../img/icon_big_arrow_ltr.png') 100% 9px no-repeat;
   color: #434343;
 }
 .cart {
@@ -185,20 +185,30 @@ html, body {
 }
 .content {}
 .content__title {
-  color: #40784b;
-  font-family: Gabriola;
-  font-size: 44px;
-  font-weight: normal;
-  line-height: 50px;
-  margin-bottom: 26px;
-}
-.content__subtitle {
   color: #434343;
   font-family: Gabriola;
   font-size: 44px;
   font-weight: normal;
   line-height: 50px;
   margin-bottom: 26px;
+  margin-top: 21px;
+}
+.content__title_color_green {
+  color: #40784b;
+}
+.content__subtitle {
+  color: #474747;
+  display: inline-block;
+  font-size: 27px;
+  padding: 0 7px;
+}
+.content__subtitle-link {
+  color: #8e8d8c;
+  text-decoration: none;
+}
+.content__subtitle-link:hover {
+  color: #474747;
+  text-decoration: none;
 }
 .content__text {
   color: #434343;
