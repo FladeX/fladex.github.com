@@ -276,3 +276,19 @@ html, body {
   top: 0;
 }
 .catalog__image {}
+.catalog__description {
+  background: url('../img/bg_catalog.png') no-repeat;
+  color: #fff;
+  display: block;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 16px;
+  height: 30px;
+  left: 0;
+  line-height: 30px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 3px #434343;
+  bottom: 0px;
+  width: 140px;
+}
