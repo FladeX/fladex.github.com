@@ -1,3 +1,13 @@
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  zoom: 1;
+}
 html, body {
   height: 100%;
 }
@@ -240,6 +250,7 @@ html, body {
 }
 .catalog {
   left: -15px;
+  margin-top: 39px;
   position: relative;
   top: 0;
 }
@@ -251,5 +262,17 @@ html, body {
 }
 .catalog__item:hover {
   box-shadow: 0 0 5px 2px #434343;
+}
+.catalog__figure {
+  position: relative;
+}
+.catalog__figure:after {
+  background: url('../img/border_image.png') no-repeat;
+  bottom: 0;
+  content: ' ';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .catalog__image {}
