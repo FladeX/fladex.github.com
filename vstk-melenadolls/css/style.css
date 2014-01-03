@@ -244,12 +244,12 @@ html, body {
   top: 0;
 }
 .catalog__item {
-  box-shadow: #434343 0 0 5px 1px;
+  box-shadow: 0 0 5px 1px #434343;
   float: left;
   margin-bottom: 18px;
   margin-left: 15px;
 }
 .catalog__item:hover {
-  box-shadow: #434343 0 0 5px 2px;
+  box-shadow: 0 0 5px 2px #434343;
 }
 .catalog__image {}
