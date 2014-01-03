@@ -104,14 +104,24 @@ html, body {
   color: #40784b;
   font-family: Gabriola;
   font-size: 24px;
-  margin-top: 90px;
-  padding-left: 140px;
+  left: -27px;
+  margin-top: 27px;
+  position: relative;
 }
+.banner__image {}
 .banner__price {
   font-size: 44px;
   line-height: 20px;
+  left: 175px;
+  position: absolute;
+  top: 103px;
 }
-.banner__currency {}
+.banner__currency {
+  font-size: 24px;
+  left: 19px;
+  position: relative;
+  top: 7px;
+}
 .footer__wrapper {
   position: relative;
 }
