@@ -1,5 +1,12 @@
+html, body {
+  height: 100%;
+}
 .page {
   background: #b9b2ac url('../img/bg.jpg') center 0 no-repeat;
+}
+.sidebar {
+  min-height: 100%;
+  padding-bottom: 56px;
 }
 .logo {
   padding: 0;
@@ -78,7 +85,7 @@
   top: 8px;
   width: 31px;
 }
-.cart__icon:hover {
+.cart:hover .cart__icon, .cart__icon:hover {
   background-position: -31px 0;
 }
 .cart__item {
