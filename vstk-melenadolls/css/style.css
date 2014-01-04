@@ -292,3 +292,44 @@ html, body {
   bottom: 0px;
   width: 140px;
 }
+.single__figure {
+  position: relative;
+}
+.single__figure:after {
+  border: 1px dashed #8ca893;
+  bottom: 1px;
+  content: ' ';
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.single__photo {}
+.single__title {
+  color: #40784b;
+  font-family: Gabriola;
+  font-size: 36px;
+  font-weight: normal;
+}
+.single__text {
+  color: #434343;
+  font-family: Gabriola;
+  font-size: 20px;
+  line-height: 22px;
+}
+.single__price {
+  color: #40784b;
+  font-family: Gabriola;
+  font-size: 36px;
+}
+.single__button {
+  background: #accfb3 url('../img/bg_button.png') no-repeat;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: Gabriola;
+  font-size: 36px;
+  line-height: 50px;
+  height: 50px;
+  width: 302px;
+}
