@@ -367,3 +367,46 @@ html, body {
 .single__button:hover {
   background-position: 0 -50px;
 }
+.news {
+  padding-bottom: 40px;
+}
+.news__gallery {
+  padding-top: 13px;
+}
+.news__figure {
+  display: inline-block;
+  position: relative;
+}
+.news__figure:after {
+  border: 1px dashed #8ca893;
+  bottom: 1px;
+  content: ' ';
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.news__photo {}
+.news__title {
+  color: #40784b;
+  font-family: Gabriola;
+  font-size: 36px;
+  font-weight: normal;
+  padding-left: 8px;
+  margin-top: 5px;
+}
+.news__text {
+  color: #434343;
+  font-family: Gabriola;
+  font-size: 20px;
+  line-height: 19px;
+  padding-left: 8px;
+  padding-right: 90px;
+  padding-top: 2px;
+}
+.news__date {
+  color: #8d8e8c;
+  font-family: Gabriola;
+  font-size: 27px;
+  padding-left: 8px;
+}
