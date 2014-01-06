@@ -86,6 +86,9 @@ html, body {
   margin-top: 17px;
   position: relative;
 }
+.cart_state_active {
+  background: url('../img/icon_big_arrow_ltr.png') 156px 13px no-repeat;
+}
 .cart__icon {
   background: url('../img/icon_cart.png') 0 0 no-repeat;
   display: block;
