@@ -525,3 +525,7 @@ html, body {
 .about__image {
   opacity: 0.2;
 }
+.cart__form {}
+.cart__field {}
+.cart__textarea {}
+.cart__submit {}
