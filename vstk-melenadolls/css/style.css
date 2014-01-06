@@ -278,6 +278,9 @@ html, body {
   position: relative;
   top: 0;
 }
+.catalog_state_cart {
+  margin-top: 2px;
+}
 .catalog__item {
   box-shadow: 0 0 5px 1px #434343;
   float: left;
@@ -286,6 +289,9 @@ html, body {
 }
 .catalog__item:hover {
   box-shadow: 0 0 5px 2px #434343;
+}
+.catalog__item_state_cart {
+  margin-left: 10px;
 }
 .catalog__figure {
   position: relative;
