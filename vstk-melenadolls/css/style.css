@@ -232,6 +232,9 @@ html, body {
   line-height: 19px;
   margin-bottom: 18px;
 }
+.content__text_align_right {
+  text-align: right;
+}
 .content__gallery {
   margin: 38px 0 13px -1px;
 }
@@ -503,4 +506,22 @@ html, body {
 }
 .order__submit:hover {
   background-position: 0 -50px;
+}
+.about__figure {
+  float: right;
+  margin-bottom: 19px;
+  margin-left: 19px;
+  position: relative;
+}
+.about__figure:after {
+  border: 1px dashed #40784b;
+  bottom: 1px;
+  content: ' ';
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.about__image {
+  opacity: 0.2;
 }
