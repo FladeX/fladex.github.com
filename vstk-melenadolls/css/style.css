@@ -9,10 +9,14 @@
   zoom: 1;
 }
 html, body {
-  height: 100%;
+  height: 100% !important;
+}
+body {
+  background: #b9b2ac url('../img/bg_vertical.jpg') 0 0 repeat-x;
 }
 .page {
-  background: #b9b2ac url('../img/bg.jpg') center 0 no-repeat;
+  background: url('../img/bg.jpg') center 0 no-repeat;
+  min-height: 100%;
 }
 .sidebar {
   min-height: 100%;
