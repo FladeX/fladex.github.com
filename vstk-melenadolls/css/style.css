@@ -540,6 +540,9 @@ html, body {
   padding: 0 6px;
   width: 286px;
 }
+.cart__field_icon_down {
+  background: #fff url('../img/icon_arrow_down.png') 280px 18px no-repeat;
+}
 .cart__textarea {
   border: 1px solid #ccc;
   -webkit-border-radius: 3px;
