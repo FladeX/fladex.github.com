@@ -504,9 +504,9 @@ body {
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
   font-family: Gabriola;
   font-size: 24px;
-  height: 39px;
+  height: 29px;
   margin-bottom: 4px;
-  padding: 0 6px;
+  padding: 7px 6px 3px;
   width: 286px;
 }
 .order__textarea {
@@ -564,9 +564,9 @@ body {
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
   font-family: Gabriola;
   font-size: 24px;
-  height: 39px;
+  height: 29px;
   margin-bottom: 4px;
-  padding: 0 6px;
+  padding: 7px 6px 3px;
   width: 286px;
 }
 .cart__field_icon_down {
