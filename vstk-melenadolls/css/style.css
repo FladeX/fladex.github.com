@@ -393,6 +393,7 @@ body {
   height: 50px;
   margin-left: 8px;
   margin-top: 11px;
+  padding: 0;
   width: 302px;
 }
 .single__button:hover {
@@ -530,6 +531,7 @@ body {
   line-height: 50px;
   height: 50px;
   margin-top: 11px;
+  padding: 0;
   width: 302px;
 }
 .order__submit:hover {
