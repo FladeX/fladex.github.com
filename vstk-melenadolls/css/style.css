@@ -234,8 +234,8 @@ body {
 }
 .content__text {
   color: #434343;
-  font-family: Gabriola;
-  font-size: 20px;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 18px;
   line-height: 19px;
   margin-bottom: 18px;
 }
@@ -370,8 +370,8 @@ body {
 }
 .single__text {
   color: #434343;
-  font-family: Gabriola;
-  font-size: 20px;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 18px;
   line-height: 19px;
   padding-left: 8px;
   padding-right: 90px;
@@ -429,8 +429,8 @@ body {
 }
 .news__text {
   color: #434343;
-  font-family: Gabriola;
-  font-size: 20px;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 18px;
   line-height: 19px;
   padding-left: 8px;
   padding-right: 90px;
@@ -454,8 +454,8 @@ body {
 }
 .contacts__text {
   color: #434343;
-  font-family: Gabriola;
-  font-size: 20px;
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 18px;
   line-height: 36px;
 }
 .contacts__icon {
