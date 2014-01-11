@@ -234,8 +234,8 @@ body {
 .content__text {
   color: #434343;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 1.5;
   margin-bottom: 18px;
 }
 .content__text_align_right {
@@ -370,8 +370,8 @@ body {
 .single__text {
   color: #434343;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 1.5;
   padding-left: 8px;
   padding-right: 90px;
   padding-top: 2px;
@@ -430,8 +430,8 @@ body {
 .news__text {
   color: #434343;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 1.5;
   padding-left: 8px;
   padding-right: 90px;
   padding-top: 2px;
@@ -455,8 +455,8 @@ body {
 .contacts__text {
   color: #434343;
   font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .contacts__icon {
   background: url('../img/icon_contacts.png') no-repeat;
