@@ -33,11 +33,12 @@ body {
   padding: 22px 0 0 5px;
 }
 .language__switch {
-  background: url('../img/icon_arrow_ltr.png') 0 -4px no-repeat;
+  background: url('../img/icon_arrow_ltr.png') 0 -3px no-repeat;
   color: #5c5b5b;
   display: inline-block;
   font-family: 'Calibry';
   font-size: 14px;
+  line-height: 16px;
   padding-left: 20px;
 }
 .language__switch_state_active {
@@ -46,17 +47,15 @@ body {
 .language__switch_lang_ru {}
 .language__switch_lang_en {}
 .language__switch-link {
-  border-bottom: 1px solid #8e8d8c;
   color: #8e8d8c;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .language__switch-link:hover {
-  border-bottom: none;
   text-decoration: none;
 }
 .language__switch-link_state_active {
-  border-bottom: 1px solid #5c5b5b;
   color: #5c5b5b;
+  text-decoration: underline;
 }
 .language__switch-link_state_active:hover {
 
@@ -87,7 +86,7 @@ body {
 .cart {
   color: #8e8d8c;
   margin-left: 41px;
-  margin-top: 17px;
+  margin-top: 27px;
   position: relative;
 }
 .cart_state_active {
