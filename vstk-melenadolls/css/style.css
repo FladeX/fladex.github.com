@@ -85,9 +85,14 @@ body {
 }
 .cart {
   color: #8e8d8c;
+  display: block;
   margin-left: 41px;
   margin-top: 27px;
   position: relative;
+  text-decoration: none;
+}
+.cart:hover {
+  text-decoration: none;
 }
 .cart_state_active {
   background: url('../img/icon_big_arrow_ltr.png') 156px 13px no-repeat;
@@ -118,6 +123,7 @@ body {
 }
 .banner {
   color: #40784b;
+  display: block;
   font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   left: -27px;
