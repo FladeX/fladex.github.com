@@ -221,6 +221,13 @@ body {
 .content__title_color_gray {
   color: #8d8e8c;
 }
+.content__title-link {
+  color: #434343;
+  text-decoration: none;
+}
+.content__title-link_color_gray {
+  color: #8d8e8c;
+}
 .content__subtitle {
   color: #474747;
   display: inline-block;
@@ -264,6 +271,7 @@ body {
 .content__gallery-column_col_third {
   width: 104px;
 }
+.content__gallery-link {}
 .content__gallery-figure {
   position: relative;
   margin-bottom: 6px;
