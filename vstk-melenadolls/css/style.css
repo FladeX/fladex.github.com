@@ -36,7 +36,7 @@ body {
   background: url('../img/icon_arrow_ltr.png') 0 -3px no-repeat;
   color: #5c5b5b;
   display: inline-block;
-  font-family: 'Calibry';
+  font-family: 'Calibri', Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   padding-left: 20px;
@@ -65,7 +65,7 @@ body {
 }
 .menu__list {}
 .menu__item {
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 27px;
   line-height: 37px;
 }
@@ -111,14 +111,14 @@ body {
   margin-left: 43px;
 }
 .cart__price {
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 26px;
   line-height: 24px;
   margin-left: 43px;
 }
 .banner {
   color: #40784b;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   left: -27px;
   margin-top: 27px;
@@ -202,7 +202,7 @@ body {
 .content {}
 .content__title {
   color: #434343;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 44px;
   font-weight: normal;
   line-height: 50px;
@@ -361,7 +361,7 @@ body {
 .single__photo {}
 .single__title {
   color: #40784b;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   font-weight: normal;
   padding-left: 8px;
@@ -378,7 +378,7 @@ body {
 }
 .single__price {
   color: #40784b;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   padding-left: 8px;
 }
@@ -387,7 +387,7 @@ body {
   border: 0;
   color: #fff;
   cursor: pointer;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   line-height: 50px;
   height: 50px;
@@ -421,7 +421,7 @@ body {
 .news__photo {}
 .news__title {
   color: #40784b;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   font-weight: normal;
   padding-left: 8px;
@@ -438,14 +438,14 @@ body {
 }
 .news__date {
   color: #8d8e8c;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 27px;
   padding-left: 8px;
 }
 .contacts {}
 .contacts__title {
   color: #434343;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 44px;
   font-weight: normal;
   line-height: 50px;
@@ -485,7 +485,7 @@ body {
 .order {}
 .order__title {
   color: #434343;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 27px;
   font-weight: normal;
   line-height: 37px;
@@ -502,7 +502,7 @@ body {
   -o-border-radius: 3px;
   border-radius: 3px;
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   height: 29px;
   margin-bottom: 4px;
@@ -516,7 +516,7 @@ body {
   -o-border-radius: 3px;
   border-radius: 3px;
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   padding: 0 6px;
   width: 286px;
@@ -526,7 +526,7 @@ body {
   border: 0;
   color: #fff;
   cursor: pointer;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   line-height: 50px;
   height: 50px;
@@ -563,7 +563,7 @@ body {
   -o-border-radius: 3px;
   border-radius: 3px;
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   height: 29px;
   margin-bottom: 4px;
@@ -580,7 +580,7 @@ body {
   -o-border-radius: 3px;
   border-radius: 3px;
   box-shadow: inset 1px 1px 2px 0 #ccc, inset -1px -1px 2px 0 #ccc;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 24px;
   padding: 0 6px;
   width: 286px;
@@ -590,7 +590,7 @@ body {
   border: 0;
   color: #fff;
   cursor: pointer;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   line-height: 50px;
   height: 50px;
@@ -642,7 +642,7 @@ body {
   border: 0;
   color: #fff;
   cursor: pointer;
-  font-family: Gabriola;
+  font-family: 'Gabriola', Garamond, 'Calibri', Arial, sans-serif;
   font-size: 36px;
   line-height: 50px;
   height: 50px;
