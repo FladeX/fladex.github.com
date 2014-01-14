@@ -397,7 +397,13 @@ body {
   width: 302px;
 }
 .single__button:hover {
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
+}
+.single__button:active {
   background-position: 0 -50px;
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
 }
 .news {
   padding-bottom: 40px;
@@ -535,7 +541,13 @@ body {
   width: 302px;
 }
 .order__submit:hover {
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
+}
+.order__submit:active {
   background-position: 0 -50px;
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
 }
 .about__figure {
   float: right;
@@ -598,7 +610,13 @@ body {
   width: 302px;
 }
 .cart__submit:hover {
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
+}
+.cart__submit:active {
   background-position: 0 -50px;
+  color: transparent;
+  text-shadow: 0 0 2px #fff;
 }
 .pay__button {
   background: url('../img/bg_pay.png') 0 0 no-repeat;
