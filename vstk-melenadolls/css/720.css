@@ -355,3 +355,26 @@ body {
 .container_12 {
   zoom: 1;
 }
+
+img {
+  max-width: 100% !important;
+}
+.content__gallery-column_col_first {
+  margin-right: 1%;
+  width: 29.95%;
+}
+.content__gallery-column_col_second {
+  margin-right: 1%;
+  width: 50.89%;
+}
+.content__gallery-column_col_third {
+  width: 16.75%;
+}
+.footer__social {
+  float: none;
+}
+.footer__copyright {
+  left: 15px;
+  position: absolute;
+  top: -60px;
+}
