@@ -357,7 +357,7 @@ body {
 }
 
 img {
-  max-width: 100% !important;
+  max-width: 100%;
 }
 .content__gallery-column_col_first {
   margin-right: 1%;
