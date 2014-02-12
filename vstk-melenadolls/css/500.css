@@ -73,30 +73,27 @@ body {
   width: 91.48%;
 }
 
-.container_12 .sidebar {
-    margin: 0;
-    padding-bottom: 0;
-    width: 100%;
-}
-.container_12 .main {
-    margin: 0 1% 40px 2%;
-    width: 97%;
-}
 img {
     max-width: 100%;
 }
 .logo__image {
     max-width: none;
-}
-.language {
-    position: absolute;
-    top: 0px;
-    right: 20px;
+    width: 150px;
 }
 .cart {
-    position: absolute;
-    top: 100px;
-    right: 20px;
+    margin-left: 3px;
+}
+.cart__icon {
+    position: static;
+    top: 0;
+}
+.cart__item {
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.cart__price {
+    margin-left: 3px;
+    margin-top: 5px;
 }
 .banner {
     display: none;
@@ -112,6 +109,11 @@ img {
 .content__gallery-column_col_third {
   width: 16.75%;
 }
-.footer__wrapper {
-    width: 360px;
+.footer__social {
+  float: none;
+}
+.footer__copyright {
+  left: 15px;
+  position: absolute;
+  top: -60px;
 }

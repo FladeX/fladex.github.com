@@ -10,7 +10,8 @@ var ADAPT_CONFIG = {
   // Last range entry is the maximum.
   // Separate ranges by "to" keyword.
   range: [
-    '0px    to 760px  = mobile.css',
+    '0px    to 500px  = mobile.css',
+    '500px  to 760px  = 500.css',
     '760px  to 980px  = 720.css',
     '980px            = 960.css'
   ]
