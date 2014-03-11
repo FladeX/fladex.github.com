@@ -1,0 +1,35 @@
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+.portfolio {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.portfolio__item {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  min-height: 200px;
+  text-align: center;
+  width: 50%;
+}
+.portfolio__preview {
+  border: 1px solid #ebebeb;
+  display: block;
+  margin: 0 auto 12px;
+  max-width: 100%;
+  -webkit-transition: opacity .8s ease;
+  -moz-transition: opacity .8s ease;
+  transition: opacity .8s ease;
+}
+.portfolio__preview:hover {
+  opacity: 0.6;
+}
