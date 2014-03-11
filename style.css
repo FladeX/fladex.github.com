@@ -9,6 +9,22 @@
 .clearfix {
   display: inline-block;
 }
+.codeschool {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+}
+.codeschool__item {
+  float: left;
+  min-height: 180px;
+  text-align: center;
+  width: 200px;
+}
+.codeschool__badge {
+  display: block;
+  margin: 0 auto;
+  width: 118px;
+}
 .portfolio {
   list-style: none;
   margin-bottom: 20px;
