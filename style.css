@@ -71,6 +71,14 @@ li {
   margin: 22px 0 0;
   padding: 0;
 }
+@media (min-width: 820px) {
+  .codeschool {
+    left: -120px;
+    position: relative;
+    top: 0;
+    width: 600px;
+  }
+}
 .codeschool__item {
   float: left;
   min-height: 180px;
