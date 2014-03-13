@@ -35,7 +35,7 @@ li {
 .knowledge__icon {
   clear: both;
   float: right;
-  margin: 80px 40px 20px;
+  margin: 80px 40px 110px;
 }
 .knowledge__list {
   margin-bottom: 80px;
@@ -43,7 +43,7 @@ li {
 .knowledge-additional__icon {
   clear: both;
   float: left;
-  margin: 40px 40px 10px 30px;
+  margin: 60px 40px 30px 30px;
 }
 .hr-line {
   margin-bottom: 80px;
@@ -60,11 +60,15 @@ li {
 }
 .jobs__icon {
   float: right;
-  margin: 20px 40px 10px 30px;
+  margin: 30px 40px 10px 30px;
+}
+.works {
+  padding: 10px 30px;
 }
 .works__title {
   margin-bottom: 30px;
   margin-top: 100px;
+  text-align: center;
 }
 .codeschool {
   list-style: none;
