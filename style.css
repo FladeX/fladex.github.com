@@ -16,6 +16,56 @@ ul {
 li {
   margin-bottom: .4em;
 }
+.main {
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.main__title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.about__icon {
+  float: left;
+  margin: 0 40px 10px;
+}
+.about__text {
+  margin-bottom: 80px;
+}
+.knowledge__icon {
+  clear: both;
+  float: right;
+  margin: 70px 40px 20px;
+}
+.knowledge__list {
+  margin-bottom: 80px;
+}
+.knowledge-additional__icon {
+  clear: both;
+  float: left;
+  margin: 40px 40px 10px 30px;
+}
+.hr-line {
+  margin-bottom: 80px;
+}
+.education__icon {
+  float: right;
+  margin: 0 40px 10px 30px;
+}
+.education__list {
+  margin-bottom: 80px;
+}
+.courses__list {
+  margin-bottom: 80px;
+}
+.jobs__icon {
+  float: right;
+  margin: 20px 40px 10px 30px;
+}
+.works__title {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
 .codeschool {
   list-style: none;
   margin: 22px 0 0;
